@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="tomComp" name="Tom 的电脑" security="1" allowsDefaultBootModule="true" type="empty" ip="59.142.88.89">
+    <tracker />
     <ports>22, 25</ports>
     <trace time="20" />
     <portsForCrack val="2" />
