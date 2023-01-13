@@ -1,7 +1,7 @@
 # Modern School : Prologue
 A Hacknet Extension made by FBIK.
 
-Modern School is not finished, the Prologue version is expected to play for less than 30 minutes.
+Modern School is not finished, the Prologue version is expected to play for about 1 hour. 
 
 # Art Credits
 -**えすにっく・かわひろ**:
