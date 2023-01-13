@@ -7,14 +7,6 @@
     <CustomConnectDisplayDaemon />
     <admin type="fast" isSuper="true" resetPassword="true" />
 
-    <file path="homework/chinese" name="作文要求.txt">题目:让我敬佩的一个人
-
-需要完成的同学: Evan, Cucumber, Tom, Bobby, Kenny, Allison.
-
-PS:Cucumber再不交语文作文就除去他的 三好学生 称号;
-Allison字数少于400的话就得重写.
-</file>
-
     <file path="homework/chinese" name="Evan_Chinese_Homework_2021-04-02.doc">让我敬佩的一个人
         
 在学习和生活中，令我敬佩的人很多，但最令我敬佩的是我的外公。
@@ -75,4 +67,11 @@ Allison字数少于400的话就得重写.
 第二天，学校在墙上公布了捐钱的名单，我立马跑上去向底下看了看，没有小气鬼的名字，果然和我的想得一样，他没有捐钱。我想找我排在第几个，随后就往上看，小气鬼居然排第二，我不敢相信自己的眼睛。这时有一位同学向大家说：“你们认为的小气鬼，并不是你们想象中的那样，他之前春游只带几块饼干，是因为省下一些钱，多给贫困儿童捐一些，我听了后对之前小气鬼那样的想法感到惭愧，我不禁敬佩的鼓了一下掌。
     
 我们不应该只看人家的表面，要多看看人家的内在，正如我一样，看错了这个小气鬼。</file>
+    <file path="homework/chinese" name="作文要求.txt">题目:让我敬佩的一个人
+
+需要完成的同学: Evan, Cucumber, Tom, Bobby, Kenny, Allison.
+
+PS:Cucumber再不交语文作文就除去他的 三好学生 称号;
+Allison字数少于400的话就得重写.
+</file>
 </Computer>
