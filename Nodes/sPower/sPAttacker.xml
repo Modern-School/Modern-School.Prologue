@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="sPAttacker" name="Student_Power 攻击者 作战节点" security="5" allowsDefaultBootModule="false" type="empty" icon="chip">
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25, 80, 443</ports>
+  <trace time="-1" />
+  <proxy time="-1" />
+
+   <file path="bin" name="SSHCrack-v0.7.2_release.exe">#SSH_CRACK#</file>
+  
+</Computer>

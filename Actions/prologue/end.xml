@@ -1,0 +1,34 @@
+<ConditionalActions>
+    <Instantly>
+        <ChangeNetmapSortMethod DelayHost="delayHost" Delay="0" Method="seqgrid" />
+        <HideAllNodes DelayHost="delayHost" Delay="0"/>
+        <ShowNode DelayHost="delayNode" Delay="0.2" Target="jmail"/>
+        <SaveGame DelayHost="delayHost" Delay="0"/>
+        <SetLock DelayHost="delayHost" Delay="0" Module="terminal" IsLocked="true" IsHidden="false"/>
+        <SetLock DelayHost="delayHost" Delay="0" Module="ram" IsLocked="true" IsHidden="false"/>
+        <SetLock DelayHost="delayHost" Delay="0" Module="netmap" IsLocked="false" IsHidden="false"/>
+        <SetLock DelayHost="delayHost" Delay="0" Module="display" IsLocked="false" IsHidden="false"/>
+        <RunFunction FunctionName="playCustomSong:Music/empty.ogg" DelayHost="delayHost" Delay="7" />
+        <SetLock DelayHost="delayHost" Delay="16" Module="terminal" IsLocked="true" IsHidden="true"/>
+        <SetLock DelayHost="delayHost" Delay="16" Module="ram" IsLocked="true" IsHidden="true"/>
+        <SetLock DelayHost="delayHost" Delay="16" Module="netmap" IsLocked="true" IsHidden="true"/>
+        <SetLock DelayHost="delayHost" Delay="16" Module="display" IsLocked="true" IsHidden="true"/>
+        <SwitchToTheme ThemePathOrName="Themes/prologue/prologue.black.xml" FlickerInDuration="0" DelayHost="delayHost" Delay="16" />
+        <RunFunction FunctionName="playCustomSong:Music/empty.ogg" DelayHost="delayHost" Delay="23" />
+        <SwitchToTheme ThemePathOrName="Themes/prologue/prologue.ms.xml" FlickerInDuration="0" DelayHost="delayHost" Delay="27" />
+        <SwitchToTheme ThemePathOrName="Themes/prologue/prologue.end.xml" FlickerInDuration="0" DelayHost="delayHost" Delay="32" />
+        <SaveGame DelayHost="delayHost" Delay="32"/>
+    </Instantly>
+    <HasFlags requiredFlags="withsPTeam">
+        <ShowNode DelayHost="delayNode" Delay="0.1" Target="sPTeamIRC013"/>
+        <RunFunction FunctionName="playCustomSong:Music/WelcomeToStudentPower_splash.ogg" DelayHost="delayHost" Delay="18" />
+        <SwitchToTheme ThemePathOrName="Themes/prologue/prologue.sp.xml" FlickerInDuration="0" DelayHost="delayHost" Delay="20" />
+        <RunFunction FunctionName="playCustomSong:Music/empty.ogg" DelayHost="delayHost" Delay="25" />
+    </HasFlags>
+    <HasFlags requiredFlags="withsU">
+        <ShowNode DelayHost="delayNode" Delay="0.1" Target="sUIRC3"/>
+        <RunFunction FunctionName="playCustomSong:Music/sUTheme_splash.ogg" DelayHost="delayHost" Delay="18" />
+        <SwitchToTheme ThemePathOrName="Themes/prologue/prologue.su.xml" FlickerInDuration="0" DelayHost="delayHost" Delay="20"/>
+        <RunFunction FunctionName="playCustomSong:Music/empty.ogg" DelayHost="delayHost" Delay="26"/>
+    </HasFlags>
+</ConditionalActions>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="cucComp" name="Cucumber Raspberry Pi" security="0" allowsDefaultBootModule="false" type="empty" icon="chip">
+
+
+    <ports>22, 80</ports>
+    <portsForCrack val="0" />
+
+</Computer>

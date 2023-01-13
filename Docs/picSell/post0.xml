@@ -1,0 +1,20 @@
+<mission id="post0">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="欢迎来到 校园之美">校园之美致力于: 
+<!-- 偷怕 --><!-- 隐藏在大家看不到的影子里, 记录大家都看得见却得不到的美. -->
+隐于众非所视之影, 记录众见而不可及之美. 
+<!-- 啥也不怕 --><!-- 不怕高层的调查, 不被有能力的人所打扰, 不惧怕不欣赏美的人, 不违背宗旨.  -->
+不惧高层察, 不因有道者所扰, 不怕不赏美者所斥, 不违旨也. 
+ 
+<!-- 爬 --><!-- 校园之美不欢迎闲人, 不邀请不欣赏美的人, 只会为有同道之人和有共同志向的人服务, 且保证他们的安全.  -->
+校园之美不迎闲者, 不请不赏美者, 但当为同道之人与共志者服, 保其安危. 
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

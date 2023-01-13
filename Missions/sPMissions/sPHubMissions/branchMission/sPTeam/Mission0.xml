@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPTeamMission0">
+    <goals>
+        <goal type="getstring" target="yes" />
+    </goals>
+    <nextMission>Missions/sPMissions/sPHubMissions/branchMission/sPTeam/Mission1.xml</nextMission>
+    <branchMissions>
+        <branch>Missions/sPMissions/sPHubMissions/branchMission/sPTeam/Mission0.n.xml</branch>
+    </branchMissions>
+    <posting title="#ALERT# [招募]Student_Power 013作战组"> ### ALERT ###
+Note: 此合同难度较高, 并且风险高. 请确定你有能力去参与该合同.
+### ALERT ###
+我们所运营的服务: Whole Net Pinging 最近遭受了恶意入侵. 
+我们即将在下周发动一次重大且秘密的网路攻击. 目标与具体安排会在您同意参与后介绍.
+    </posting>
+    <email>
+        <sender>Student_Power</sender>
+        <subject>警告 - 受警告的合同确认</subject>
+        <body>#PLAYERNAME#,
+您刚刚认领了来自于我们的受警告合同确认, 我们需要再次确认您是否同意认领该合同. 请回复 "yes" 以同意, "no" 以放弃合同.
+-Student_Power
+        </body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

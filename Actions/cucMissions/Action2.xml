@@ -1,0 +1,13 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/cucTheme.ogg" />
+        <AddAsset FileName="memoryForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="cucWeb" TargetFolderpath="home/tools"/>
+    </Instantly>
+    
+    <HasFlags requiredFlags="withCuc">
+        <LoadMission MissionName="Missions/cucMissions/Mission4.xml" />
+    </HasFlags>
+    <HasFlags requiredFlags="withoutCuc">
+        <LoadMission MissionName="Missions/cucMissions/Mission4.b2.xml" />
+    </HasFlags>
+</ConditionalActions>

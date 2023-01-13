@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission">
+    <goals>
+        <goal type="getadminpasswordstring" target="playerComp"/>
+    </goals>
+    <nextMission>Missions/cucMissions/Mission1.xml</nextMission>
+    <branchMissions>
+        <branch>Missions/cucMissions/Mission3.xml</branch>
+    </branchMissions>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>你启动成功了吗?</subject>
+        <body>嘿! 既然你看到了这封邮件, 说明虚拟机启动成功了.
+最近有个小长假, 我就知道你会利用这个时间来尝试这个操作系统.
+我从未想到过计算机部的公共U盘能恢复出这玩意.
+我在网上找了半天都没有找到这个系统的任何安装程序或者镜像文件, 以及你所获得的虚拟机程序.
+这个操作系统被绑定在了这个虚拟机程序里, 以我的技术储备没法对它进行拆解.
+看样子, 这个预发行版本的操作系统是秘密研发的, 会不会有啥特别厉害的功能, 
+虽然我感觉计算机部秘密研发些新奇玩意非常正常, 我感觉这个操作系统不简单.
+那么, 把系统管理员的密码发给我吧, 我远程运行下检测程序.
+        </body>
+        <attachments>   
+        </attachments>
+    </email>
+</mission>

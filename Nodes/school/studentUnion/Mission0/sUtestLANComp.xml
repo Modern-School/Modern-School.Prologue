@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sUtestLANComp" name="[转正测试] 未知 的笔记本电脑" security="0" allowsDefaultBootModule="false" type="empty" icon="laptop">
+
+  <ports>22, 25, 6881</ports>
+  <portsForCrack val="1" />
+  <trace time="60" />
+  <encryptedFile path="home" name="secret.dec" extension=".txt" ip="95.18.153.177" header="Packaged by Student Union" pass="55beb96643">
+恭喜通过 转正测试其一!
+请以邮件的方式回复以下内容:
+78ec3d5dfc</encryptedFile>
+  <dlink target="sUTestWatcher"/>
+</Computer>

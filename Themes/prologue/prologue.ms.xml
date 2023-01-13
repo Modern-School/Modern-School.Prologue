@@ -1,0 +1,37 @@
+<CustomTheme>
+    <themeLayoutName>mint</themeLayoutName>
+    <backgroundImagePath>Themes/Backgrounds/modernschool3.png</backgroundImagePath>
+    <defaultHighlightColor>0,0,0,0</defaultHighlightColor>
+    <defaultTopBarColor>0,0,0,0</defaultTopBarColor>
+    <moduleColorSolidDefault>0,0,0,0</moduleColorSolidDefault>
+    <moduleColorStrong>0,0,0,0</moduleColorStrong>
+    <moduleColorBacking>0,0,0,0</moduleColorBacking>
+    <exeModuleTopBar>0,0,0,0</exeModuleTopBar>
+    <exeModuleTitleText>0,0,0,0</exeModuleTitleText>
+    <warningColor>0,0,0,0</warningColor>
+    <subtleTextColor>0,0,0,0</subtleTextColor>
+    <darkBackgroundColor>0,0,0,0</darkBackgroundColor>
+    <indentBackgroundColor>0,0,0,0</indentBackgroundColor>
+    <outlineColor>0,0,0,0</outlineColor>
+    <lockedColor>0,0,0,0</lockedColor>
+    <brightLockedColor>0,0,0,0</brightLockedColor>
+    <brightUnlockedColor>0,0,0,0</brightUnlockedColor>
+    <unlockedColor>0,0,0,0</unlockedColor>
+    <lightGray>0,0,0,0</lightGray>
+    <shellColor>0,0,0,0</shellColor>
+    <shellButtonColor>0,0,0,0</shellButtonColor>
+    <semiTransText>0,0,0,0</semiTransText>
+    <terminalTextColor>0,0,0,0</terminalTextColor>
+    <topBarTextColor>0,0,0,0</topBarTextColor>
+    <superLightWhite>0,0,0,0</superLightWhite>
+    <connectedNodeHighlight>0,0,0,0</connectedNodeHighlight>
+    <netmapToolTipColor>0,0,0,0</netmapToolTipColor>
+    <netmapToolTipBackground>0,0,0,0</netmapToolTipBackground>
+    <topBarIconsColor>0,0,0,0</topBarIconsColor>
+    <thisComputerNode>0,0,0,0</thisComputerNode>
+    <scanlinesColor>0,0,0,0</scanlinesColor>
+    <AFX_KeyboardMiddle>0,0,0,0</AFX_KeyboardMiddle>
+    <AFX_KeyboardOuter>0,0,0,0</AFX_KeyboardOuter>
+    <AFX_WordLogo>0,0,0,0</AFX_WordLogo>
+    <AFX_Other>0,0,0,0</AFX_Other>
+</CustomTheme>

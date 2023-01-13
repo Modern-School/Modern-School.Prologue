@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sUTestComp" name="[转正测试] 常用端口漏洞运用测试 服务器" security="4" allowsDefaultBootModule="false"
+    type="empty" ip="sutest.top">
+
+    <addWebServer name="HTTP Service" url="Web/404Page.html" />
+    <ports>22, 21, 25, 80</ports>
+
+    <firewall level="4" solution="mawdopc" additionalTime="0.01" />
+    <proxy time="2" />
+    <portsForCrack val="4" />
+    <trace time="45" />
+    <eosDevice name="[转正测试] 系统漏洞运用 ePhone 4S" id="sUTestEos" icon="ePhone2" empty="true"
+        passOverride="alpine">
+        <file path="eos/mail" name="user2048@mail.sutest.top.act">MAIL ACCOUNT : user2048@mail.sutest.top
+Account :user2048@mail.sutest.top
+Password :4194304
+Last Sync :1/4/2021 10:01:24 PM
+
+1111110011110110101110110110101111111110011110101100010111111111111010101101100010111101111010110110111101111100000011000110111101111110111111101001101101011001111100010011110110101111010011001010110000000101000010010110010100110110111001000110100110101100110111100101011001010110100110111011101101010100100100101001110100010011100100001011100110110111000101011111111101101111101100110110010001001000011100101011100111111101100100100111011111101111101110</file>
+    </eosDevice>
+    <dlink target="sUTestWatcher" />
+</Computer>

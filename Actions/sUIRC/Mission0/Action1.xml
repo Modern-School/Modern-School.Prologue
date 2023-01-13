@@ -1,0 +1,19 @@
+<ConditionalActions>
+    <Instantly>
+        <AddIRCMessage Author="Alexander" TargetComp="sUIRC3" Delay="-80">对了, 关于我们对新人出的题</AddIRCMessage>
+        <AddIRCMessage Author="Alexander" TargetComp="sUIRC3" Delay="-70">题目过难了的吧</AddIRCMessage>
+        <AddIRCMessage Author="Mansour" TargetComp="sUIRC3" Delay="-65">我觉得刚刚好</AddIRCMessage>
+        <AddIRCMessage Author="Oreb" TargetComp="sUIRC3" Delay="-60">有人能通过的, 我们就是需要这样的人</AddIRCMessage>
+        <AddIRCMessage Author="Alexander" TargetComp="sUIRC3" Delay="-50">?</AddIRCMessage>
+        <AddIRCMessage Author="Mansour" TargetComp="sUIRC3" Delay="-40">监视器显示#PLAYERNAME#的表现良好</AddIRCMessage>
+        <AddIRCMessage Author="Mansour" TargetComp="sUIRC3" Delay="-30">我同意他加入</AddIRCMessage>
+        <AddIRCMessage Author="Alexander" TargetComp="sUIRC3" Delay="-25">好</AddIRCMessage>
+        <AddIRCMessage Author="Oreb" TargetComp="sUIRC3" Delay="-20">好</AddIRCMessage>
+        <AddIRCMessage Author="Mansour" TargetComp="sUIRC3" Delay="-10">他马上就来</AddIRCMessage>
+    </Instantly>
+    <OnConnect target="sUIRC3">
+        <AddIRCMessage Author="Mansour" TargetComp="sUIRC3" Delay="2">恭喜通过转正测试一, 我是Mansour, 网络组组长</AddIRCMessage>
+        <RunFunction FunctionName="addFlags:withsU" />
+        <AddConditionalActions Filepath="Actions/prologue/end.xml" DelayHost="delayNode" Delay="0" />
+    </OnConnect>
+</ConditionalActions> 

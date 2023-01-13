@@ -1,0 +1,3 @@
+config [TARGET_COMP] [SOURCE_COMP] 0 $#%#$
+delete /ContractHub/Users/ * $#%#$
+delete /log * $#%#$

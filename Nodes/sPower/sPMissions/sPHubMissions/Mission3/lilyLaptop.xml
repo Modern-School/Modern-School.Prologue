@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="lilyLaptop" name="Lily 的笔记本电脑" security="0" allowsDefaultBootModule="false" type="empty" icon="laptop">
+
+    <adminPass pass="lilywasalittlegirl" />
+    <ports></ports>
+    <portsForCrack val="1" />
+
+    <trace time="-1" />
+    <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+
+    <dlink target="lilyPad"/>
+</Computer>

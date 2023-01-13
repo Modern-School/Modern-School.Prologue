@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission4_b2" activeCheck="false">
+    <goals>
+        <goal type="filedownload" target="cucWeb" file="memoryForensics.exe" path="home/tools" />
+        <goal type="getstring" target="ABCEDFG"/>
+    </goals>
+    <nextMission>Missions/cucMissions/Mission4.1.xml</nextMission>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>分享给你一个新工具</subject>
+        <body>嗨! 不知道为啥你没有回复我的邮件, 不过我有幸获得到了计算机部开发组曾经制作的一套侦探工具. 你可能对此感兴趣. 
+第一个叫:  
+MemoryForensics内存取证器 
+这个工具可以打开内存转储, 我把它上传到我的网站的home/tools目录了. 
+试试用它来查看我的home/file/MemoryDump.md文件, 把内存中的进程文件内容告诉我. 
+        </body>
+        <attachments>
+            <link comp="cucWeb" />
+            <account comp="cucWeb" user="admin" pass="cinac" />
+        </attachments>
+    </email>
+</mission>

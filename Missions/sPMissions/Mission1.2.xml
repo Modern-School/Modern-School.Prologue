@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPMission1_2">
+    <goals>
+        <goal type="getadmin" target="sPAssets" />
+    </goals>
+    <nextMission>Missions/sPMissions/Mission1.3.xml</nextMission>
+    <email>
+        <sender>Student_Power</sender>
+        <subject>恭喜通过!</subject>
+        <body>欢迎你, #PLAYERNAME#.
+你出色及时地完成了你的第一项任务, 让我们见识到了你的能力. 现在, 我诚挚地欢迎你加入Student_Power.
+Student_Power是一个由本校学生组成的非盈利性组织. 我们会对不擅长于计算机技术的同学提供帮助, 对学校的网络环境进行维护, 对摩登校网存在的恶意入侵现象进行防护.
+作为组织送给你的见面礼, 你可以去资源服务器里面随意下载你所需要的程序. 一旦你准备好了, 请回复这封邮件.
+再次恭喜你通过测试.
+ - Leroy
+        </body>
+        <attachments>
+            <link comp="sPAssets" />
+            <account comp="sPAssets" user="admin" pass="Student_Power_Is_Powerful" />
+        </attachments>
+    </email>
+</mission>

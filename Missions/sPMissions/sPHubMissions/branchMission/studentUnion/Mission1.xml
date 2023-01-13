@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="studentUnionMission1">
+    <goals>
+        <goal type="getstring" target="78ec3d5dfc" />
+    </goals>
+    <missionStart>loadConditionalActions:Actions/sUIRC/Main/Action1.xml</missionStart>
+    <nextMission>Missions/sPMissions/sPHubMissions/branchMission/studentUnion/Mission2.xml</nextMission>
+    <posting title="error">error
+  </posting>
+    <email>
+        <sender>Students' Union</sender>
+        <subject>转正测试其一</subject>
+        <body>很高兴见到你, #PLAYERNAME#, 
+我是学生会副会长 Oreb, 也是学生会网络组组长. 
+
+Student Power 向我们推荐了您, 这代表着 Student Power 对您有着高度的信任. 
+当然, 为了确保您真的如 Student Power 所说可以向学生会效力, 在正式加入网络组前, 我们需要对您的实力进行评估. 
+测试的内容我们写在附件里, 请按照任务要求进行入侵. 
+放轻松些, 我相信这对于您来说并不难.
+-Oreb
+    </body>
+        <attachments>
+            <note title="任务细节">转正测试 其一
+
+目标: sutest.top
+任务内容: 寻找并解密secret.dec
+注意: 你将获得暂时的合法入侵权, 请勿用于其他用途. 
+请勿向 转正测试监控器 实施攻击. 
+        </note>
+        </attachments>
+    </email>
+</mission>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission4">
+    <goals>
+        <goal type="getstring" target="ABCEDFG"/>
+    </goals>
+    <nextMission>Missions/cucMissions/Mission4.1.xml</nextMission>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>新工具获取</subject>
+        <body>嘿嘿嘿, 在邮箱上好久不见awa. 
+我有幸获得到了计算机部开发组曾经制作的一套侦探工具. 第一个叫:  
+MemoryForensics内存取证器 
+这个工具可以打开内存转储, 我把它上传到我的网站的home/tools目录了. 这些工具的名字比较长, 你可以对他们重命名后再进行使用. 
+试试用它来查看我的home/file/MemoryDump.md文件, 把内存中的进程文件内容告诉我. 
+        </body>
+        <attachments>
+            <link comp="cucWeb" />
+        </attachments>
+    </email>
+</mission>

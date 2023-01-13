@@ -1,0 +1,15 @@
+<mission id="news0">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="欢迎查看校园新闻">您好, 这里是摩登中学新闻部.
+
+我们将在第一时间发布校园的及时新闻与消息.
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

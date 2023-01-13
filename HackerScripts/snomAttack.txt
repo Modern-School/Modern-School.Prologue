@@ -1,0 +1,41 @@
+config [TARGET_COMP] [SOURCE_COMP] 0 $#%#$
+delay 3 $#%#$
+connect $#%#$
+stopMusic $#%#$
+openPort 22 $#%#$
+flash $#%#$
+stopMusic $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+hideTerminal $#%#$
+clearTerminal $#%#$
+delay 5 $#%#$
+showTerminal $#%#$
+flash $#%#$
+writel 我是摩登校网安全维护员. $#%#$
+writel 你刚刚未经允许, 非法登录了校有服务器. $#%#$
+writel 马上停止你的行为!!! $#%#$
+delay 5 $#%#$
+flash $#%#$
+writel  $#%#$
+writel 在本校, 非法登录与操作校有服务器是被严厉禁止的! $#%#$
+delay 5 $#%#$
+flash $#%#$
+writel  $#%#$
+writel 你想补交作业? 那这次口头警告你, 下不为例. $#%#$
+delay 5 $#%#$
+hideTerminal $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+reboot -i $#%#$
+delete /log * $#%#$
+delay 8 $#%#$
+clearTerminal $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+showTerminal $#%#$

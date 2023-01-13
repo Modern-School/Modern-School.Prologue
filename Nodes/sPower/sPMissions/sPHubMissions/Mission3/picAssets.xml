@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="picAssets" name="校园之美 资源服务器" security="3" allowsDefaultBootModule="false" type="empty" ip="135.80.2.220">
+
+    <adminPass pass="beautiful" />
+    <ports>21</ports>
+    <portsForCrack val="1" />
+    <proxy time="5" />
+    <trace time="-1" />
+<file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+<encryptedFile 
+    path="home" 
+    name="Lily.dec" 
+    extension=".jpg" 
+    ip="59.142.88.89" 
+    header="请联系 Lily-get@j.mail" 
+    pass="20181213">#BINARY#</encryptedFile>
+    <encryptedFile 
+    path="home" 
+    name="Danika.dec" 
+    extension=".jpg" 
+    ip="22.98.167.208" 
+    header="请联系 Danika-get@j.mail" 
+    pass="AlanWalkerDontHaveThisSongXD">#BINARY#</encryptedFile>
+</Computer>

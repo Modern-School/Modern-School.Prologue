@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="edonComp" name="Edon 的笔记本电脑" security="3" allowsDefaultBootModule="false" type="empty" icon="laptop" ip="22.98.167.208">
+
+    <tracker/>
+    <ports>22, 25</ports>
+    <portsForCrack val="2" />
+    <firewall level="5" solution="ed0nfw" additionalTime="0.1"/>
+    <eosDevice name="Edon 的 ePhone 4S" id="Edoneos" icon="ePhone2" empty="false" passOverride="alpine" ip="22.98.167.210   ">
+        <file  path="eos/mail" name="Edon@jmail.com.act">MAIL ACCOUNT : Edon@jmail.com
+Account   :Edon@jmail.com
+Password :edonisntidiot
+Last Sync :28/3/2021 5:05:22 PM
+  
+1011111011000011111111000011100110111111111001101101001101000110011101111101000110100111110010111110001111111101101010001100111010111101101001001100110110010111011101010010110101101101101101101011000010101111111011101110100010110101111101111101110100011110001101101110001010110010011010110010011010111101010001111101111100110100010101001000110000100110010101001101001010011000110101100101010010110111110010010111111010000011001000100111001111011010011110</file>
+    </eosDevice>
+
+</Computer>

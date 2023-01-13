@@ -1,0 +1,20 @@
+<mission id="news2">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="eOS操作系统成为摩登校网主流桌面操作系统">根据学生会的线下调查统计结果, 
+eOS操作系统已经成为摩登校网的主流桌面操作系统, eOS Community Edition (社区开源版, 以下简称eOS CE) 没有在移动设备与服务器上取得流行.
+计算机部成员中的 SignalScrambleService 安防程序负责者 Zeus 在采访中认为, eOS CE 虽然确实是开源的, 
+但是功能与eOS差别太多, 设计上也写死了非常多东西, 所以功能上与eOS相近的 Open-eOS 桌面操作系统会更加被大家所认同.
+
+
+记着: Abby
+日期: 2021年3月29日
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

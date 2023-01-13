@@ -1,0 +1,44 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/WelcomeToStudentPower.ogg" />
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="1">问大家个问题</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="3">请</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="7">请</AddIRCMessage>
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="11">就是怎么判断一个含有酸根的物资是属于盐还是酸?</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="15">是否完全电离?</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="12">有金属的是盐</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="14">不对, 看电离出来的阳离子是不是都是H离子</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="17">无金属也可以</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="19">NH盐</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="21">对对对</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="22">看前面部分</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="25">如果是金属离子或者NH离子</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="27">就是盐</AddIRCMessage>
+        <AddIRCMessage Author="TK" TargetComp="sPIRC" Delay="28">Yeah Yeah</AddIRCMessage>
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="29">噢噢噢噢哦哦哦懂了</AddIRCMessage>
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="33">谢谢大家awa</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="40">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="40">*** Lily加入了IRC</AddIRCMessage>
+        <AddIRCMessage Author="Danika" TargetComp="sPIRC" Delay="42">嗨!</AddIRCMessage>
+        <AddIRCMessage Author="Allison" TargetComp="sPIRC" Delay="42.5">欢迎!@Lily</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="44">欢迎!@Lily</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="45">欢迎!@Lily</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="45.5">欢迎!@Yan</AddIRCMessage>
+        <AddIRCMessage Author="Lily" TargetComp="sPIRC" Delay="45.5">这里是?</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="48">Student_Power公共IRC服务器</AddIRCMessage>
+        <AddIRCMessage Author="Lily" TargetComp="sPIRC" Delay="50">哦好的, 谢谢!</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="52">不客气</AddIRCMessage>
+        <AddConditionalActions Filepath="Actions/sPMission/Action1.xml" DelayHost="delayNode" Delay="15"/>
+        <AddAsset FileName="SQLMemoryCorruptionInjector.exe" FileContents="#SQL_CRACK#" TargetComp="sPAssets" TargetFolderpath="home/tools" />
+        <AddAsset FileName="SMTPServerOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="sPAssets" TargetFolderpath="home/tools" />
+        <LaunchHackScript 
+        Filepath="HackerScripts/clean.txt" 
+        DelayHost="cyanComp"  
+        SourceComp="cyanComp" 
+        TargetComp="lilyPad" 
+        RequireLogsOnSource="false" 
+        RequireSourceIntact="false"/>
+    </Instantly>
+
+
+</ConditionalActions>

@@ -1,0 +1,6 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="removeFlags:withoutCuc"/>
+        <RunFunction FunctionName="addFlags:withCuc"/>
+    </Instantly>
+</ConditionalActions>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="sPTeamMission0_n">
+  <goals>
+    <goal type="getstring" target="no"/>
+  </goals>
+  <nextMission>Missions/sPMissions/sPHubMissions/branchMission/sPTeam/Mission0.n2.xml</nextMission>
+  <posting title="?" >az
+</posting>
+  <email>
+    <sender>SP_Bot</sender>
+    <subject>合同取消</subject>
+    <body>理论上, 这玩意不会发
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

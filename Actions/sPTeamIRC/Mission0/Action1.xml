@@ -1,0 +1,11 @@
+<ConditionalActions>
+    <Instantly>
+        <AddIRCMessage Author="Base" TargetComp="sPTeamIRC013" Delay="-10">#PLAYERNAME# 马上到</AddIRCMessage>
+    </Instantly>
+    <OnConnect target="sPTeamIRC013">
+        <AddIRCMessage Author="Base" TargetComp="sPTeamIRC013" Delay="1">好, 大家都到齐了</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPTeamIRC013" Delay="6">那么我们开始</AddIRCMessage>
+        <RunFunction FunctionName="addFlags:withsPTeam" />
+        <AddConditionalActions Filepath="Actions/prologue/end.xml" DelayHost="delayNode" Delay="0"/>
+    </OnConnect>
+</ConditionalActions> 

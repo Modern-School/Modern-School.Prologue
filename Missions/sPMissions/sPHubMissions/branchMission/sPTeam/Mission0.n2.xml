@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPTeamMission0_n_2" activeCheck="true">
+    <goals></goals>
+    <missionStart>loadConditionalActions:Actions/sPTeamIRC/Mission0/ActionN.xml</missionStart>
+    <nextMission>NONE</nextMission>
+    <posting title="?">az
+    </posting>
+    <email>
+        <sender>SP_Bot</sender>
+        <subject>合同取消</subject>
+        <body>#PLAYERNAME#,
+合同已取消. 这是自动通知邮件, 请勿回复.
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>

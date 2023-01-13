@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="lilyPad" name="Lily 的ePad" security="0" allowsDefaultBootModule="false" type="empty" icon="tablet">
+
+    <adminPass pass="alpine" />
+    <ports>32, 21</ports>
+    <portRemap>32=22, 21=1234</portRemap>
+    <portsForCrack val="3" />
+
+    <trace time="-1" />
+    <file path="eos/apps/FTPServer" name="app.pkg">#BINARY#</file>
+    <file path="eos/apps/FTPServer" name="FTPServer.sav">----- [FTPServer] Save Data -----
+Service Port : 1234
+</file>
+    <file path="eos/apps/SignalScrambleService" name="app.pkg">#BINARY#</file>
+    <file path="eos/apps/SignalScrambleService" name="SignalScrambleService.sav">----- [SignalScrambleService] Save Data -----
+ 
+Service Port : 22
+ 
+Scramble Port : 22, 3695
+</file>
+    <file path="eos/notes" name="待装软件.txt">待装软件
+
+网上找来的, 推荐在eOS CE上安装的app: 
+ 
+就让小编教大家怎样在eOS平板电脑上使用文件传输吧! 1.FTPServer 
+FTPServer是一个轻便的文件传输软件. 众所周知, 暂时只有eOS拥有系统自带的文件传输功能, eOS暂时没有给其他设备提供这个服务. 
+而简便且传统的FTPServer完全可以弥补这个缺陷. 
+只需要下载并且安装FTPServer的epk文件, 即可享受FTPServ 
+ 
+营销号话真多 
+ 
+ 
+SignalScrambleService: 安防程序, 测试版, 据说能干扰eOS不需要的端口. 
+</file>
+    <file path="eos/mail" name="place-holder">place-holder</file>
+    <file path="eos/system" name="core.sys">#BINARY#</file>
+    <file path="eos/system" name="runtime.bin">#BINARY#</file>
+    <dlink target="lilyLaptop" />
+</Computer>

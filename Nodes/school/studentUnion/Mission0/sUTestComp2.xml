@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sUTestComp2" name="[转正测试] 主被动追踪测试 笔记本电脑" security="2" allowsDefaultBootModule="false" type="empty" icon="laptop" ip="95.18.153.177">
+  <ports>22, 21</ports>
+  <portsForCrack val="2"/>
+  <trace time="20" />
+  <file path="home" name="key.txt">55beb96643</file>
+
+<dlink target="sUTestWatcher"/>
+</Computer>

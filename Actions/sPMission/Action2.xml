@@ -1,0 +1,6 @@
+<ConditionalActions>
+    <Instantly>
+        <AddMissionToHubServer MissionFilepath="Missions/sPMissions/sPHubMissions/Mission3.xml"
+            TargetComp="sPHub" />
+    </Instantly>
+</ConditionalActions>

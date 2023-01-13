@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission3" activeCheck="true">
+    <goals>
+        <goal type="filedownload" target="sPTest" file="Student_Power_Induction_Test" path="home" />
+    </goals>
+    <missionStart>loadConditionalActions:Actions/cucMissions/Action1.2.xml</missionStart>
+    <nextMission>Missions/sPMissions/Mission1.delay.xml</nextMission>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>感谢感谢</subject>
+        <body>谢谢你, 我的 三好学生 称号保住了qwq. 
+看来这个系统有很大的能力啊, 是时候去寻找用武之地了. 
+我曾经在一个校内的技术交流群了解到了一个技术组织, 有兴趣加入吗? 
+听说是个由我校擅长于电脑方面的学生组成的非盈利组织, 
+这个组织会组织帮助学生去完成一些电脑方面的事情, 前提是正义的. 
+我以后有事在找你, 不打扰你了, 拜拜! awa
+        </body>
+        <attachments>
+            <link comp="sPTest" />
+        </attachments>
+    </email>
+</mission>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sPTest" name="Student_Power 测试服务器" security="2" allowsDefaultBootModule="false" type="empty" icon="chip" ip="199.59.149.230">
+
+
+    <ports>22, 21, 80</ports>
+    <portsForCrack val="1" />
+
+    <proxy time="0.3"/>
+    <trace time="-1"/>
+    <firewall level="4" additionalTime="0.5"/>
+
+<file path="home" name="Student_Power_Induction_Test">
+祝贺你, 
+下载此文件以完成您的入组测试. 
+Student_Power马上就会联系你.</file>
+
+<file path="bin" name="cxk_yyds.txt">鸡你太美~
+鸡你太美~
+鸡你太美~
+鸡你太美~
+鸡你太美~
+鸡你太美~
+鸡你太美~
+鸡你实在是太美~
+</file>
+<file path="bin" name="admin_can_can_need.txt">看看你们这群幼稚的小鬼</file>
+
+<file path="sys" name="i_wanna_half_life2.txt">谁能给我一份半条命2?(*^_^*)
+    - Base
+</file>
+<file path="sys" name="RE_i_wanna_half_life2.txt">半条命2? 那游戏的路得走来走去, 非常容易卡关, 不推荐玩
+    - Evan
+</file>
+<file path="sys" name="admin_i_dont_know_why.txt">我不理解, 为什么你们要在系统目录聊天</file>
+</Computer>

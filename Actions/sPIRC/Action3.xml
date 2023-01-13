@@ -1,0 +1,51 @@
+<ConditionalActions>
+    <Instantly>
+        <LaunchHackScript 
+        Filepath="HackerScripts/sUTestComp2.txt" 
+        DelayHost="delayHost"  
+        SourceComp="sUTestComp2" 
+        TargetComp="sUTestComp" 
+        RequireLogsOnSource="false" 
+        RequireSourceIntact="false"/>
+        <RunFunction FunctionName="playCustomSong:Music/happyIRC.ogg" />
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="0">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="0">*** Liu加入了IRC</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="1">?</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="3">你怎么来了</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="3.5">欢迎!@Liu</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="4">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="4">*** CHANNEL Group添加</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="4">    GroupName: WhiteList</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="4">    TargetUser: @Leroy, @Base, @Liu, @#PLAYERNAME#, @TK</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="4">*** CHANNEL配置修改 whiteListMode = true</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="8">有什么事情吗?</AddIRCMessage>
+        <AddIRCMessage Author="Liu" TargetComp="sPIRC" Delay="8">#PLAYERNAME#是你这里的吗?@Leroy</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="10">是的, 有什么事吗?</AddIRCMessage>
+        <AddIRCMessage Author="Liu" TargetComp="sPIRC" Delay="15">#PLAYERNAME#入侵了FreeProxy服务的数据库</AddIRCMessage>
+        <AddIRCMessage Author="Liu" TargetComp="sPIRC" Delay="15.5">这是SP的任务吗, 要干什么?</AddIRCMessage>
+        <AddIRCMessage Author="TK" TargetComp="sPIRC" Delay="18">Crazy for you</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="23">是的, 任务目标是调查使用FreeProxy连接科学社研究报告存储服务器的危险人物</AddIRCMessage>
+        <AddIRCMessage Author="Liu" TargetComp="sPIRC" Delay="25">......</AddIRCMessage>
+        <AddIRCMessage Author="Liu" TargetComp="sPIRC" Delay="27">以后找我就行了嘛</AddIRCMessage>
+        <AddIRCMessage Author="Liu" TargetComp="sPIRC" Delay="30">数据库面板都标着我的邮箱了</AddIRCMessage>
+        <AddIRCMessage Author="Liu" TargetComp="sPIRC" Delay="34">托#PLAYERNAME#的福, 我需要重新设计防御机制了qwq</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="35">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="35">*** CHANNEL配置修改 whiteListMode = false</AddIRCMessage>
+        <RunFunction FunctionName="playCustomSong:Music/WelcomeToStudentPower.ogg" DelayHost="delayHost" Delay="36"/>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="37">发生什么事了?</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="37.5">发生什么事了?</AddIRCMessage>
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="38">发生什么事了?</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="40">发生什么事了?</AddIRCMessage>
+        <AddIRCMessage Author="Rany" TargetComp="sPIRC" Delay="40.5">发生什么事了?</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="41">发生什么事了?</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="41.5">发生什么事了?</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="44">......</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="45">我不知道啊qwq</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="46">......</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="48">我信你个鬼!</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="50">QAQ欺...欺负我!</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="51">TAT</AddIRCMessage>
+        <AddIRCMessage Author="Lily" TargetComp="sPIRC" Delay="53">......</AddIRCMessage>
+        <AddConditionalActions Filepath="Actions/sPIRC/Action3.1.xml" DelayHost="sPIRC" Delay="54"/>
+    </Instantly>
+</ConditionalActions>

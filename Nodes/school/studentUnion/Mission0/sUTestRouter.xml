@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sUTestRouter" name="[转正测试] 局域网渗透测试 路由器" security="0" allowsDefaultBootModule="false" type="empty" icon="chip" ip="167.151.91.28">
+    <ports>22, 80</ports>
+    <portsForCrack val="2" />
+    <firewall level="4" solution="harvlea" additionalTime="0.01"/>
+    <dlink target="sUtestLANComp"/>
+    <dlink target="sUTestWatcher"/>
+</Computer>

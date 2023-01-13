@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="tomLAN" name="Tom 的路由器" security="0" allowsDefaultBootModule="false" type="empty" icon="chip" ip="59.142.88.87">
+    <ports>22, 80</ports>
+    <portsForCrack val="2" />
+    <trace time="-1" />
+    <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+    <file path="Whitelist" name="list.txt">
+22.98.167.208
+22.98.167.210
+11.4.5.14
+19.19.8.10
+143.3.22.3</file>
+<file path="Whitelist" name="dontAddTrash!.txt">
+别乱加ip, 很危险的</file>
+</Computer>

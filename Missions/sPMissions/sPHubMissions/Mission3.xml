@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission3" activeCheck="true">
+    <goals>
+        <goal type="fileupload" target="tomComp" file="Decypher.exe" path="bin" destTarget="sPUpload" destPath="Upload/Uploads"/>
+        <goal type="fileupload" target="tomComp" file="Encypher.exe" path="bin" destTarget="sPUpload" destPath="Upload/Uploads"/>
+        <goal type="fileupload" target="tomComp" file="EmailNotes.txt" path="home" destTarget="sPUpload" destPath="Upload/Uploads"/>
+        <goal type="fileupload" target="tomComp" file="BitCoin.txt" path="home" destTarget="sPUpload" destPath="Upload/Uploads"/>
+        <goal type="fileupload" target="picAssets" file="DECHead.exe" path="bin" destTarget="sPUpload" destPath="Upload/Uploads"/>
+        <goal type="fileupload" target="picAssets" file="Lily.dec" path="home" destTarget="sPUpload" destPath="Upload/Uploads"/>
+        <goal type="fileupload" target="picAssets" file="Danika.dec" path="home" destTarget="sPUpload" destPath="Upload/Uploads"/>
+    </goals>
+    <missionStart>playCustomSong:Music/sPHubMission3.ogg</missionStart>
+    <nextMission>Missions/sPMissions/sPHubMissionsContinue/Mission3.2.xml</nextMission>
+    <posting title="藏在黑暗中的照相机">
+有一位女同学发现有人在售卖她的照片. 
+这侵犯了她的人权. 
+
+这位女同学准备拿着证据去找老师寻求帮助, 但是证据却不见了. 
+</posting>
+    <email>
+        <sender>Lily</sender>
+        <subject>我需要维护我的权力</subject>
+        <body>你好, #PLAYERNAME#. 
+校内有一个偷拍女学生并且进行照片出售的恶意团体. 
+而我就是这个团体的受害者. 
+我们女生不能容忍自己的肖像权被随意侵犯. 
+通过我们班女班长的努力, 我成功的得到了它们偷拍我的照片. 
+但是当我准备用此证据来告老师时, 我发现照片不见了. 
+请帮我找出足以证明, 谢谢你! 
+附加的笔记是可能存在的证据类型, ip是我的笔记本电脑. 
+- Lily
+        </body>
+        <attachments>
+            <link comp="lilyLaptop" />
+            <account comp="lilyLaptop" user="admin" pass="lilywasalittlegirl"/>
+            <link comp="sPUpload" />
+            <account comp="sPUpload" user="admin" pass="asdfghjkl"/>
+<note title="任务细节">可能存在的证据类型: 
+女生照片的加密文件 
+加密解密相关工具 
+用于寻找卖家的工具 
+BitCoin私钥或公钥 
+ 
+请将这些证据上传至: 
+Student_Power 外部资源服务器. 
+</note>
+        </attachments>
+    </email>
+</mission>

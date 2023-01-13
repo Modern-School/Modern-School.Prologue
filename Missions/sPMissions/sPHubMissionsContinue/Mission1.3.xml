@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission1_3" activeCheck="true">
+    <goals>
+        <goal type="delay" time="1" />
+    </goals>
+    <nextMission>Missions/sPMissions/sPHubMissionsContinue/Mission1.4.xml</nextMission>
+    <posting title="ERROR">
+啊这
+</posting>
+    <email>
+        <sender>Allison</sender>
+        <subject>谢谢你!</subject>
+        <body>谢谢你, #PLAYERNAME#! 
+我们可以将我们的作品重新展示了. 
+再次的, 谢谢你! 
+- Allison
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission3_3" activeCheck="true">
+    <goals></goals>
+    <nextMission>NONE</nextMission>
+    <posting title="ERROR">
+awa
+</posting>
+    <email>
+        <sender>SP_Bot</sender>
+        <subject>任务完成</subject>
+        <body>#PLAYERNAME#, 
+恭喜你完成了以下任务: 
+藏在黑暗中的照相机 
+这是自动通知邮件, 请勿回复. 
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>

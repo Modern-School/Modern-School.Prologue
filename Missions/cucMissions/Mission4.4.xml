@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission4_4" activeCheck="false">
+    <goals>
+        <goal type="getstring" target="ZQG"/>
+    </goals>
+    <missionStart>playCustomSong:Music/cucTheme.ogg</missionStart>
+    <nextMission>Missions/cucMissions/Mission4.5.xml</nextMission>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>小试牛刀</subject>
+        <body>试用内存侦探工具的机会来啦! 
+Peter虽然没有在他的电脑上记录密码, 不过内存里应该会有点蛛丝马迹, 我们可以试一试. 
+入侵Peter的电脑, 然后将解密密钥告诉我awa 
+        </body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

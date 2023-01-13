@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sPHub" name="Student_Power 任务数据库" security="5">
+
+    <adminPass pass="thisisstudentpowersecret"/>
+    <account username="#PLAYERNAME#" password="Student_Power_Is_Powerful" type="3"/>
+    <ports>21,22,25,80,1433</ports>
+    <portsForCrack val="5" />
+    <trace time="60"/>
+    <proxy time="10"/>
+    <missionHubServer groupName="Student_Power" serviceName="Student_Power 任务数据库" missionFolderPath="Missions/sPMissions/sPHub" themeColor="232,232,232" lineColor="225,0,0" backgroundColor="20,20,20" allowAbandon="false" />
+</Computer>

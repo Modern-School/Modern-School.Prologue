@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="hwUploader" name="初三15班 作业提交终端" security="0" allowsDefaultBootModule="false" type="empty" icon="chip">
+
+
+    <ports>22, 80</ports>
+    <portsForCrack val="0" />
+
+    <dlink target="hwFTP"/>
+
+</Computer>

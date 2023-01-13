@@ -1,0 +1,5 @@
+config [TARGET_COMP] [SOURCE_COMP] 0 $#%#$
+connect $#%#$
+openPort 22 $#%#$
+delete /sys * $#%#$
+disconnect $#%#$

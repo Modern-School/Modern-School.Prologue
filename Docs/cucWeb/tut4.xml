@@ -1,0 +1,20 @@
+<mission id="tut4">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Analyze">防火墙扫描工具Analyze已经集成于HacknetOS.
+
+连接到计算机后使用 Analyze 命令运行此程序.
+
+
+Analyze可以自动检测响应数据头中的信息, 并将非防火墙破解指令信息排除. 
+
+一旦发现潜在的破解指令, 就可以使用命令 solve [破解指令] 来尝试破解.  
+</posting>
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

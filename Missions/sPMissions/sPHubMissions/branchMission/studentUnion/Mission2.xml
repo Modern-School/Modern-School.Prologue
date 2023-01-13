@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="studentUnionMission2" activeCheck="true">
+    <goals>
+        <goal type="hasflag" target="SU_Member"/>
+    </goals>
+    <missionStart>loadConditionalActions:Actions/sUIRC/Mission0/Action1.xml</missionStart>
+    <nextMission>NONE</nextMission>
+    <posting title="error">error
+  </posting>
+    <email>
+        <sender>Students' Union</sender>
+        <subject>转正测试其二</subject>
+        <body>您好, #PLAYERNAME#, 我是组长Mansour. 
+恭喜通过转正测试其一, 您证明了您拥有着足够的信息技术能力来加入网络组. 
+下一项测试内容为实战, 请登录我们的IRC服务器以继续. 
+-Mansour
+    </body>
+        <attachments>
+            <link comp="sUIRC3" />
+        </attachments>
+    </email>
+</mission>

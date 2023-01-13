@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="tomComp" name="Tom 的电脑" security="1" allowsDefaultBootModule="true" type="empty" ip="59.142.88.89">
+    <ports>22, 25</ports>
+    <trace time="20" />
+    <portsForCrack val="2" />
+    <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+    <file path="bin" name="Encypher.exe">#BINARYSMALL#</file>
+<file path="home" name="EmailNotes.txt">邮件回复草稿: 
+你好, 是想要Lily的照片吗? 
+所有资源已经打包至lily.dec文件, 价格为89.5元, 约折合0.0005BTC. 
+请支付至公钥5HubgzYicuXVKj1MWkGrbw1bdpGz9L3ZEvzWjhGoJ1GEJYYgKtt. 
+</file>
+<file path="home" name="BitCoin.txt">私钥: 0c0fe2612ca6be1dfce6d01f3cc3beb230af01b903b7ed4ab6e14f63e25bc627
+公钥: 5HubgzYicuXVKj1MWkGrbw1bdpGz9L3ZEvzWjhGoJ1GEJYYgKtt
+</file>
+<WhitelistAuthenticatorDaemon Remote="tomLAN"/>
+</Computer>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission1_6" activeCheck="true">
+    <goals>
+        <goal type="delay" time="1" />
+    </goals>
+    <missionStart>loadConditionalActions:Actions/sPIRC/Action1.1.xml</missionStart>
+    <nextMission>Missions/sPMissions/sPHubMissionsContinue/Mission1.7.xml</nextMission>
+    <posting title="ERROR">
+        啊这
+    </posting>
+    <email>
+        <sender>Student_Power</sender>
+        <subject>Re: 临时任务</subject>
+        <body>干的不错, #PLAYERNAME#.
+看来我们需要多加关注 Never 这一个人了.
+你又完成了一个重要的任务.
+如果你有空的话, 请继续完成其他任务.
+ - Leroy
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>

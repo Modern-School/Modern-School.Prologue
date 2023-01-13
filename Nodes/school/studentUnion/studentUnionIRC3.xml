@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sUIRC3" name="摩登中学 学生会 IRC服务器3" security="3" allowsDefaultBootModule="true" icon="DLCPC1" type="1">
+    <portsForCrack val="5" />
+    <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1234,ftp=99,web=9050,6881=6882</portRemap>
+    <trace time="15"/>
+    <proxy time="5"/>
+    <admin type="fast" isSuper="true" resetPassword="true"/>
+    <!-- account username="#PLAYERNAME#" password="xAPv18xR6s" type="1"/> -->
+    <DHSDaemon groupName="摩登中学 学生会 网络组" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="false" themeColor="255,140,0" allowContractAbbandon="false">
+        <agent name="Channel" pass="hBZ6Hk8x" color="255,255,0"/>
+        <agent name="Anna" pass="N42PxoiC" color="209,74,48"/>
+        <agent name="Mansour" pass="CocqYO94" color="112,198,255"/>
+        <agent name="Alexander" pass="q8NP3Gqw" color="58,202,146"/>
+        <agent name="Oreb" pass="QYkd89Hy" color="255,255,255"/>
+    </DHSDaemon>
+</Computer>

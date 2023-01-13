@@ -1,0 +1,15 @@
+<ConditionalActions>
+    <Instantly>
+        <AddIRCMessage Author="TK" TargetComp="sPIRC" Delay="1">homework rush maths no stop!</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="3">oh yeah! 我已经写完了</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="6">doc发我@Peter</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="10">我用DEC加密给你, 有本事你解密</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="12">请</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="16">早就上传资源服务器了</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="19">啊? 哪个?</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="23">你猜</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="25">......</AddIRCMessage>
+        <AddConditionalActions Filepath="Actions/cucmissions/Action2.xml" DelayHost="delayHost" Delay="20"/>
+        <AddConditionalActions Filepath="Actions/sPMission/Action3.xml" DelayHost="delayNode" Delay="30"/>
+    </Instantly>
+</ConditionalActions>

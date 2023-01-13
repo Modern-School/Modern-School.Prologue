@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission1_5" activeCheck="true">
+    <goals>
+        <goal type="getadmin" target="eos2"/>
+    </goals>
+    <missionStart>playCustomSong:Music/SPMission.ogg</missionStart>
+    <nextMission>Missions/sPMissions/sPHubMissionsContinue/Mission1.6.xml</nextMission>
+    <posting title="ERROR">
+啊这
+</posting>
+    <email>
+        <sender>Student_Power</sender>
+        <subject>临时任务</subject>
+        <body>干的不错, #PLAYERNAME#.
+你刚刚解决了一个帮助任务, 不过这有一个新的紧急任务需要你来完成. 
+如你所见, 美术社的网页服务器管理员密码被修改了, 而密码与Jack用于售卖黑客工具的新服务器的密码一样. 
+我怀疑是同一个人所为, 或者与Jack同一志向的人干的. 
+重新检查下与Jack所有的设备, 如果有的话调查可疑设备. 
+- Leroy
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>

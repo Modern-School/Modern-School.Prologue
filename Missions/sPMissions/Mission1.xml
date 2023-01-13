@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPMission1">
+    <goals>
+        <goal type="filedeletion" target="toolSeller" file="x-server.sys" path="sys" />
+        <goal type="filedeletion" target="toolSeller" file="os-config.sys" path="sys" />
+        <goal type="filedeletion" target="toolSeller" file="bootcfg.dll" path="sys" />
+        <goal type="filedeletion" target="toolSeller" file="netcfgx.dll" path="sys" />
+        <goal type="getstring" target="103.201.54.9" />
+    </goals>
+    <missionStart>playCustomSong:Music/SPMission.ogg</missionStart>
+    <nextMission>Missions/sPMissions/Mission1.2.xml</nextMission>
+    <email>
+        <sender>Student_Power</sender>
+        <subject>任务完成</subject>
+        <body>你好, #PLAYERNAME#.
+首先祝贺你成功通过了我们的入组测试. 当然, 这件事情对于我们来说非常简单, 我们只用它来隔绝那些得到了些小技术就想加入的人.
+在你正式加入我们组织之前, 我们必须对你的能力进行进一步的考验.
+最近, 有一个从我们组织获得了破解程序的人, 将我们免费提供的破解程序公然出售, 令我们的服务器被非正义者多次攻击.
+但不幸的是, 他最近更换了它的服务器, 而我们不知道这个新服务器的ip地址.
+我们希望你去获得新服务器的ip, 并且使新服务器的系统无法运转. 我们只能把旧服务器的ip告诉你.
+祝你好运.
+- Leroy
+        </body>
+        <attachments>
+            <link comp="toolSellerOld" />
+        </attachments>
+    </email>
+</mission>

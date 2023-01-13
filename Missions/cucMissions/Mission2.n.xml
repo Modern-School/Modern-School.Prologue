@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission2_n">
+    <goals>
+        <goal type="getstring" target="no"/>
+    </goals>
+    <nextMission>Missions/cucMissions/Mission3.b2.xml</nextMission>
+    <email>
+        <sender>Mail_Bot</sender>
+        <subject>请稍等</subject>
+        <body>邮件服务器为你暂挂了一个请求.
+            请稍等.
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>

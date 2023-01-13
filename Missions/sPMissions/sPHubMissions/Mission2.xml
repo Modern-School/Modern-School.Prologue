@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission2" activeCheck="true">
+    <goals>
+      <goal type="getstring" target="Peter"/>
+    </goals>
+    <missionStart>playCustomSong:Music/sPHubMission2.ogg</missionStart>
+    <nextMission>Missions/sPMissions/sPHubMissionsContinue/Mission2.2.xml</nextMission>
+
+    <posting title="可疑的日志">
+科学部成员发现他们的 研究报告存储服务器 有可疑的登录记录.
+</posting>
+
+    <email>
+        <sender>Peter</sender>
+        <subject>可疑的登录日志</subject>
+        <body>你好, #PLAYERNAME#. 
+昨天晚上在我们存储了我们的研究报告时, 发现有一个陌生的ip登录了我们的管理员. 
+虽然这个人好像什么也没干, 但是我们必须重视这件事情. 因为我们不希望我们的成果被窃取或者被破坏. 
+我们想知道是谁干的这个事情. 
+- Peter
+    </body>
+        <attachments>
+            <link comp="sciAssets" />
+            <account comp="sciAssets" user="admin" pass="CaO+H2O=CaCO3" />
+        </attachments>
+    </email>
+</mission>

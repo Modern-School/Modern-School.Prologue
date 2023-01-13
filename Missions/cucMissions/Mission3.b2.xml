@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission3_b2" activeCheck="true">
+    <goals>
+        <goal type="filedownload" target="sPTest" file="Student_Power_Induction_Test" path="home" />
+    </goals>
+    <missionStart>loadConditionalActions:Actions/cucMissions/Action1.2.xml</missionStart>
+    <nextMission>Missions/sPMissions/Mission1.delay.xml</nextMission>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>啊这</subject>
+        <body>no? 校有服务器太危险了? 不好意思啊, 我忘记了. 
+可惜了我的"三好学生", 不过这是没办法的事嘛awa, 主要责任还是我. 
+对了, 我这有个你可能会感兴趣的技术组织. 
+我曾经在一个校内的技术交流群了解到了一个技术组织, 有兴趣加入吗? 
+听说是个由我校擅长于电脑方面的学生组成的非盈利组织, 
+这个组织会组织帮助学生去完成一些电脑方面的事情, 前提是正义的. 
+我以后有事在找你, 不打扰你了, 拜拜! qwq
+        </body>
+        <attachments>
+            <link comp="sPTest" />
+        </attachments>
+    </email>
+</mission>

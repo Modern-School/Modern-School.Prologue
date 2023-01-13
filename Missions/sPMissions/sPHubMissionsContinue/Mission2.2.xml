@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission2_2" activeCheck="true">
+    <goals>
+        <goal type="delay" time="3"/>
+    </goals>
+    <missionStart>loadConditionalActions:Actions/sPIRC/Action2.xml</missionStart>
+    <nextMission>Missions/sPMissions/sPHubMissionsContinue/Mission2.3.xml</nextMission>
+    <posting title="ERROR">
+错错错错
+</posting>
+    <email>
+        <sender>Peter</sender>
+        <subject>Re: 可疑的登录日志</subject>
+        <body>啊......啊这, 原来是我啊. 
+抱歉啊我在访问不小心研究报告存储服务器忘记关闭代理了. 
+抱歉啊, #PLAYERNAME#, 你幸苦了! 
+- Peter
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>

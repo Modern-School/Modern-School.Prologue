@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="snomComp" name="摩登校网安全维护员 作战基地" security="5" allowsDefaultBootModule="false" type="empty" icon="DLCLaptop">
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 80, 443</ports>
+  <trace time="2.5" />
+  <proxy time="-1" />
+
+   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+</Computer>

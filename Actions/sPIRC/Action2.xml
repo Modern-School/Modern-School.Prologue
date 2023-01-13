@@ -1,0 +1,40 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/happyIRC2.ogg" />
+        <HideNode DelayHost="delayHost" Delay="0" TargetComp="sciAssets"/>
+        <ChangeIP DelayHost="delayHost" Delay="0" TargetComp="sciAssets" NewIP="#RANDOM_IP#" />
+        <CrashComputer TargetComp="sciAssets" CrashSource="sciAssets" DelayHost="sciAssets"/>
+        <LaunchHackScript 
+        Filepath="HackerScripts/ArlanClean.txt" 
+        DelayHost="delayHost"  
+        SourceComp="arlanComp" 
+        TargetComp="cyanComp" 
+        RequireLogsOnSource="false" 
+        RequireSourceIntact="false"/>
+        <AddIRCMessage Author="Rany" TargetComp="sPIRC" Delay="2">话说学校的部和社团有啥差别呢?</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="5">部比社大</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="7">部有负责老师</AddIRCMessage>
+        <AddIRCMessage Author="Danika" TargetComp="sPIRC" Delay="8">社团需要有所成绩才可以升级为部</AddIRCMessage>
+        <AddIRCMessage Author="Allison" TargetComp="sPIRC" Delay="10">部的经费会多一些</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="11">部都会参加比赛</AddIRCMessage>
+        <AddIRCMessage Author="Rany" TargetComp="sPIRC" Delay="12">哇</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="12">部的活动教室正常会比社大</AddIRCMessage>
+        <AddIRCMessage Author="Rany" TargetComp="sPIRC" Delay="14">这样啊, 懂了</AddIRCMessage>
+        <RunFunction FunctionName="playCustomSong:Music/WelcomeToStudentPower.ogg" DelayHost="delayNode" Delay="15"/>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="19">大家都是什么社呢? 我是回家社</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="21">机器人部</AddIRCMessage>
+        <AddIRCMessage Author="Allison" TargetComp="sPIRC" Delay="22">美术社</AddIRCMessage>
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="24">美术社</AddIRCMessage>
+        <AddIRCMessage Author="TK" TargetComp="sPIRC" Delay="24.5">Dance Dance Dance Oh</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="25.5">回家社</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="26">Leroy呢? </AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="27">Leroy? </AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="27.5">闭嘴, 维护站点呢!</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="29">什么社? </AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="31">没有</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="33">回家社啊</AddIRCMessage>
+        <AddConditionalActions Filepath="Actions/sPMission/Action2.xml" DelayHost="delayNode" Delay="15"/>
+    </Instantly>
+
+
+</ConditionalActions>

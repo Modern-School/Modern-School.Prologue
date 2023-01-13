@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="studentUnionMission0">
+  <goals>
+    <goal type="getstring" target="yes"/>
+  </goals>
+  
+  <nextMission>Missions/sPMissions/sPHubMissions/branchMission/studentUnion/Mission1.xml</nextMission>
+  <branchMissions>
+    <branch>Missions/sPMissions/sPHubMissions/branchMission/studentUnion/Mission0.n.xml</branch>
+  </branchMissions>
+  <posting title="#ALERT# [招募]摩登中学学生会" > ### ALERT ### 
+Note: 这个合同的认领, 也代表着Student_Power与您即将说再见了. 
+ ### ALERT ### 
+我们是摩登中学学生会, 我们的网络组需要善于信息技术的成员. 
+ 
+摩登中学学生会纪检部对于摩登校网的良好信息环境至关重要, 为摩登校网的良好环境提供了学生的力量. 
+摩登中学学生会纪检部不同于其他中学的纪检部, 网络组会在摩登校网上进行纪律检查, 对学生在摩登校网上的违纪违规行为进行制止与记录. 
+校方会每月为网络组成员加3~4学分. 
+  </posting>
+  <email>
+    <sender>Student_Power</sender>
+    <subject>警告 - 受警告的合同确认</subject>
+    <body>#PLAYERNAME#, 
+您刚刚认领了来自于 摩登中学学生会 的受警告合同确认, 我们需要再次确认您是否同意认领该合同. 请回复 "yes" 以同意, "no" 以放弃合同. 
+-Student_Power
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

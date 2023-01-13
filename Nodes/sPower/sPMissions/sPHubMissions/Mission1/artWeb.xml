@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="artWeb" name="美术社 网页服务器" security="1" allowsDefaultBootModule="true" type="empty">
+
+
+  <adminPass pass="spsb" />
+  <ports>22, 21, 80</ports>
+  <portsForCrack val="1" />
+  <firewall level="2" additionalTime="0.1" />
+  <trace time="-1" />
+  <addWebServer name="美术社 作品展示" url="Web/artWeb/index.html" />
+
+  <file path="bin" name="trap_circle.bat">@echo off
+:A
+trap
+goto A
+</file>
+  <file path="bin" name="trap.exe">#BINARYSMALL#</file>
+</Computer>

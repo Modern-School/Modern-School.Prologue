@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sUTestMailServer" name="[转正测试] 隐私获取测试 邮件服务器" ip="mail.sutest.top" security="5" type="empty">
+
+    <admin type="fast" isSuper="true" resetPassword="true" />
+    <account username="user2048" password="4194304" type="2"/>
+    <portsForCrack val="4" />
+    <ports>25, 80, 1433, 443</ports>
+    <firewall level="4" />
+    <proxy time="3" />
+    <trace time="50" />
+
+
+    <mailServer name="[转正测试] 隐私获取测试 邮件服务" generateJunk="true">
+<email recipient="user2048" sender="test@su.modern.edu" subject="[转正测试] 具有隐私的邮件">这里是什么什么服务, 然后最近你使用了以下ip来连接到我们的服务, 确认下:
+
+167.151.91.28
+</email>
+    </mailServer>
+
+    <dlink target="sUTestWatcher"/>
+</Computer>

@@ -1,0 +1,6 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="removeFlags:CSEC_Member" />
+        <RunFunction FunctionName="playCustomSong:Music/sUMission0.ogg" />
+    </Instantly>
+</ConditionalActions>

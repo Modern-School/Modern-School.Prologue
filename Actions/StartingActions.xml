@@ -1,0 +1,43 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="setHubServer:sPHub" FunctionValue="1" />
+        <RunFunction FunctionName="setAssetServer:sPAssets" FunctionValue="1" />
+        <GivePlayerUserAccount DelayHost="delayHost" Delay="0" TargetComp="playerComp"
+            Username="admin" />
+        <GivePlayerUserAccount DelayHost="delayHost" Delay="0" TargetComp="testNode"
+            Username="admin" />
+        <RunFunction FunctionName="addFlags:CSEC_Member,withoutCuc" />
+        <ChangeNetmapSortMethod DelayHost="delayHost" Delay="0" Method="seqgrid" />
+        <LaunchHackScript
+            Filepath="HackerScripts/peterComp.txt"
+            DelayHost="delayHost"
+            SourceComp="peterComp"
+            TargetComp="peterComp"
+            RequireLogsOnSource="false"
+            RequireSourceIntact="false" />
+        <LaunchHackScript
+            Filepath="HackerScripts/freeProxy.txt"
+            DelayHost="delayHost"
+            SourceComp="freeProxy1"
+            TargetComp="sciAssets"
+            RequireLogsOnSource="false"
+            RequireSourceIntact="false" />
+        <LaunchHackScript
+            Filepath="HackerScripts/sPOpen.txt"
+            DelayHost="delayHost"
+            SourceComp="sPTest"
+            TargetComp="sPTest"
+            RequireLogsOnSource="false"
+            RequireSourceIntact="false" />
+        <LaunchHackScript
+            Filepath="HackerScripts/rmTrashUsers.txt"
+            DelayHost="delayHost"
+            SourceComp="sPHub"
+            TargetComp="sPHub"
+            RequireLogsOnSource="false"
+            RequireSourceIntact="false" />
+        <ChangeIP DelayHost="delayHost" Delay="0" TargetComp="Edoneos" NewIP="22.98.167.210" />
+        <DeleteFile TargetComp="lilyPad" FilePath="eos/mail" FileName="place-holder"
+            DelayHost="delayHost" Delay="0" />
+    </Instantly>
+</ConditionalActions> 

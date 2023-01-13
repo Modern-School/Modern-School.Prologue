@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission4_5" activeCheck="true">
+    <goals></goals>
+    <missionStart>loadConditionalActions:Actions/sPIRC/Action3.3.xml</missionStart>
+    <nextMission>NONE</nextMission>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>Re: 小试牛刀</subject>
+        <body>谢谢! 
+不继续打扰你了, 拜拜! 
+        </body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

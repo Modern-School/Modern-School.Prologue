@@ -1,0 +1,11 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/happyIRC.ogg" />
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="1">你的加密文件正确的记录了你的ip地址, 你不怕我入侵你的计算机?</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="5">红红火火恍恍惚惚</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="7">哈哈哈哈哈哈哈哈</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="9">......</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="12">我用脑子记的密码</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="15">略略略略略略略略~</AddIRCMessage>
+    </Instantly>
+</ConditionalActions>

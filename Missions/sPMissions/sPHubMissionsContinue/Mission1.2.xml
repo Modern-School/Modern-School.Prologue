@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission1_2" >
+    <goals>
+        <goal type="getstring" target="spsb" />
+    </goals>
+    <missionEnd>loadConditionalActions:Actions/sPIRC/Action1.xml</missionEnd>
+    <nextMission>Missions/sPMissions/sPHubMissionsContinue/Mission1.3.xml</nextMission>
+    <posting title="ERROR">
+啊这
+</posting>
+
+    <email>
+        <sender>Allison</sender>
+        <subject>Re: 同学好</subject>
+        <body>谢谢你, #PLAYERNAME#,
+服务器可以正常登录了.
+但是管理员的密码被修改了, 可以将新的密码告诉我们吗?
+- Allison
+        </body>
+        <attachments>
+            <link comp="artWeb" />
+        </attachments>
+    </email>
+</mission>

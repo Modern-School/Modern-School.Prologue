@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="cucWeb" name="Cucumber 网页服务器" security="1" type="empty">
+
+    <variableMissionListingServer 
+    name="网页- 系统集成程序操作指南" 
+    articleFolderPath="Docs/cucWeb" 
+    color="200,200,200" 
+    assigner="false" 
+    public="true" 
+    title="HackNetOS系统集成程序操作指南"/>
+    <adminPass pass="cinac" />
+    <admin type="fast" isSuper="true" resetPassword="false"/>
+    <ports>22, 80</ports>
+    <portsForCrack val="2" />
+    <trace time="-1" />
+    
+    <Memory>
+        <Commands>
+            <Command></Command>
+        </Commands>
+        <Data>
+            <Block>cinac</Block>
+        </Data>
+        <Images>
+            <Image></Image>
+        </Images>
+    </Memory>
+    <file path="home/tools" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+    <memoryDumpFile name="MemoryDump.md" path="home/file">
+        <Memory>
+            <Commands>
+                <Command></Command>
+            </Commands>
+            <Data>
+                <Block>ABCEDFG</Block>
+            </Data>
+            <Images>
+                <Image></Image>
+            </Images>
+        </Memory>
+    </memoryDumpFile>
+
+    
+</Computer>

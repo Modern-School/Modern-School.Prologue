@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission1_4_Delay" activeCheck="true">
+    <goals>
+        <goal type="delay" time="34" />
+    </goals>
+    <nextMission IsSilent="true">Missions/sPMissions/sPHubMissionsContinue/Mission1.5.xml</nextMission>
+    <email>
+        <sender>SP_Bot</sender>
+        <subject>待处理请求</subject>
+        <body>
+            邮件服务器为你暂挂了一个请求.
+            请稍等.
+        </body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

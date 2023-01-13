@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="delayNode" name="穷举测试2" allowsDefaultBootModule="false" type="empty">
+  <LogoDaemon Name="绝对防御" ShowsTitle="true" TextColor="255, 255, 255, 200" LogoImagePath="Logo/school.png">绝对防御
+你们都是弟弟</LogoDaemon>
+  <FastActionHost />
+  <adminPass pass="20ZDw0NgQPhuD7590FMUnMed5lNin6a1"/>
+  <portsForCrack val="1919810" />
+  <ports>22</ports>
+  <trace time="0.1" />
+  <firewall level="1919810" additionalTime="1919810"/>
+  <file path="home" name="qwq.txt">用了hacknet扩展的的vscode插件, 
+每次自动补全的默认delayHost是delayNode, 
+每次又忘记改, 
+导致出现问题没法及时发现
+QAQ</file>
+</Computer>

@@ -1,0 +1,8 @@
+<CustomFaction name="Intro" id="Intro" playerVal="0">
+
+  <Action ValueRequired="1">
+    <RunFunction FunctionName="setHubServer:sPHub" FunctionValue="1" />
+    <RunFunction FunctionName="setAssetServer:sPAssets" FunctionValue="1" />
+  </Action>
+  
+</CustomFaction>

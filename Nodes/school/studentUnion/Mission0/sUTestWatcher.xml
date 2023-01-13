@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sUTestWatcher" name="摩登中学学生会 转正测试监控器" security="4" type="empty">
+    <admin type="fast" isSuper="true" resetPassword="false" />
+    <ports>22, 80, 443</ports>
+    <portsForCrack val="3" />
+    <firewall level="4" additionalTime="0.1" />
+    <trace time="10" />
+    <CustomConnectDisplayDaemon />
+    <LogoDaemon Name="转正测试监控器" ShowsTitle="true" TextColor="255, 255, 255, 200" LogoImagePath="Logo/school.png">转正测试监控器
+这不是目标节点, 请勿施展攻击</LogoDaemon>
+</Computer>

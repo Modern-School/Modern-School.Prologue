@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission3_2" activeCheck="true">
+    <goals>
+        <goal type="delay" time="5"/>
+    </goals>
+    <missionStart>loadConditionalActions:Actions/sPIRC/Action3.xml</missionStart>
+    <nextMission>Missions/sPMissions/sPHubMissionsContinue/Mission3.3.xml</nextMission>
+    <posting title="ERROR">
+awa
+</posting>
+    <email>
+        <sender>Lily</sender>
+        <subject>Re: 我需要维护我的权力</subject>
+        <body>谢谢你, #PLAYERNAME#,
+我拥有了足够多的证据去告诉了. 
+他们必将接受惩罚! 
+- Lily
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>

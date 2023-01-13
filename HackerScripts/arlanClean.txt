@@ -1,0 +1,6 @@
+config [TARGET_COMP] [SOURCE_COMP] 0 $#%#$
+connect $#%#$
+openPort 22 $#%#$
+openPort 21 $#%#$
+openPort 25 $#%#$
+delete /log * $#%#$

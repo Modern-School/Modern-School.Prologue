@@ -1,0 +1,31 @@
+<ConditionalActions>
+    <Instantly>
+        <AddConditionalActions Filepath="Actions/sPMission/Action0.xml" DelayHost="delayNode" Delay="15"/>
+        <RunFunction FunctionName="playCustomSong:Music/WelcomeToStudentPower.ogg" />
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="1">awa</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="2">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="2">*** #PLAYERNAME#加入了IRC</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="5">wow</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="6">欢迎欢迎!@#PLAYERNAME#</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="6.5">欢迎!@#PLAYERNAME#</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="6.5">欢迎!</AddIRCMessage>
+        <AddIRCMessage Author="TK" TargetComp="sPIRC" Delay="10">Come on Let's dance</AddIRCMessage>
+        <AddIRCMessage Author="Allison" TargetComp="sPIRC" Delay="11">欢迎</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="15">哇哦, 初三15班的有多少人在这里?</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="20">我, Evan, Allison和#PLAYERNAME#, 目前共4个</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="25">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="sPIRC" Delay="25">*** Yan加入了IRC</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="27">欢迎!@Yan</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="28">欢迎!@Yan</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="32">欢迎!@Yan</AddIRCMessage>
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="36">大家好, 我的朋友告诉了我这个IRC服务器</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="41">这是公共服务器, 放心, 你没干啥事情不会踢走你的</AddIRCMessage>
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="45">:)</AddIRCMessage>
+    </Instantly>
+    <HasFlags requiredFlags="withCuc">
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="9">兄弟你来啦XD</AddIRCMessage>
+    </HasFlags>
+    <HasFlags requiredFlags="withoutCuc">
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="9">嗨!XD</AddIRCMessage>
+    </HasFlags>
+</ConditionalActions>

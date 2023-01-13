@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="studentUnion" name="摩登中学学生会 网页服务器" ip="su.modern.edu" security="4" type="empty">
+    <adminPass pass="mdw" />
+    <admin type="fast" isSuper="true" resetPassword="false" />
+    <ports>80, 443</ports>
+    <portsForCrack val="2" />
+    <firewall level="4" additionalTime="0.1" />
+    <proxy time="7" />
+    <trace time="20" />
+    <CustomConnectDisplayDaemon />
+      <variableMissionListingServer 
+    name="摩登中学 学生会" 
+    logo="Logo.png"
+    articleFolderPath="Docs/studentUnion/" 
+    color="0,128,128" 
+    assigner="false" 
+    public="true" 
+    title="公告"/>
+</Computer>

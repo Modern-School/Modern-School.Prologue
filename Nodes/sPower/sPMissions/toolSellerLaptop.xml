@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="toolSellerLaptop" name="未知 的笔记本电脑" security="0" allowsDefaultBootModule="false" type="empty" icon="laptop">
+
+
+  <ports>22, 21, 80</ports>
+  <portsForCrack val="1" />
+
+  <trace time="60" />
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <eosDevice name="Jack 的 ePhone 4S" id="eos1" icon="ePhone2" empty="false" passOverride="alpine">
+    <note>新服务器
+103.201.54.9
+密码我绝对不会忘, 哈哈
+</note>
+  </eosDevice>
+
+</Computer>

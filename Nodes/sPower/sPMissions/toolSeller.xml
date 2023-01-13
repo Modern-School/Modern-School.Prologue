@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="toolSeller" name="黑客工具买一送一 新站点" security="1" allowsDefaultBootModule="false" type="empty" ip="103.201.54.9">
+
+  <addWebServer name="黑客工具买一送一 新站点" url="Web/404Page.html" />
+  <ports>22, 21, 80</ports>
+  <portsForCrack val="1" />
+  <firewall level="4"/>
+  <trace time="-1" />
+  <adminPass pass="spsb" />
+
+
+  <file path="home/sell" name="SSHCrack-v0.7.2_release.exe">#SSH_CRACK#</file>
+  <file path="home/sell" name="FTPCrack-v0.8.1.exe">#FTP_CRACK#</file>
+
+</Computer>

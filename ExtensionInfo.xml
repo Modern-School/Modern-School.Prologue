@@ -1,0 +1,205 @@
+<HacknetExtension>
+    <!-- Max name length is 128 characters -->
+    <Name>Modern School : Prologue</Name>
+    <AllowSaves>true</AllowSaves>
+
+    <!-- a coma separated list of notes that start out as being visible-->
+    <StartingVisibleNodes></StartingVisibleNodes>
+
+    <!-- the mission (if any) that loads in as soon as the player starts -->
+    <StartingMission>Missions/StartingMission.xml</StartingMission>
+
+    <!-- Conditional action set that is loaded in as soon as a new session is created
+  This is
+    useful to do setup stuff, like giving the player programs, assigning them a faction etc.
+  If
+    you don't need this, set it to "NONE", or just delete the tag.-->
+    <StartingActions>Actions/StartingActions.xml</StartingActions>
+
+    <!-- Description that appears within Hacknet -->
+    <Description>欢迎来到 摩登中学.
+您的操作系统基于 Open-eOS, 需要连接到 摩登中学校内互联网络环境 以完成激活.
+在进一步开始前, 请 注册或登录 您的 eOS 账号以完成身份验证.
+将为您自动 注册或登录 以下服务:
+Jmail 免费邮箱服务.
+    </Description>
+
+    <!-- Factions involved in this extension! You can define as many or as few as you like -->
+    <Faction>Factions/StartingFaction.xml</Faction>
+
+    <StartsWithTutorial>False</StartsWithTutorial>
+
+    <!-- this makes the extension start with the standard restart bootup sequence -->
+    <HasIntroStartup>false</HasIntroStartup>
+
+
+    <!-- <StartingTheme>Themes/ExampleTheme.xml</StartingTheme> -->
+    <StartingTheme>Themes/eOS-Hacknet.xml</StartingTheme>
+    <!--
+  Base Themes are named:
+  TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow,
+    HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
+  -->
+
+    <!-- You can reference songs from the original game here, or your own .ogg files by path.
+  To
+    reference original songs, use their name in the files! You don't need the path, just the
+    filename. This works for any songs in these folders:
+  Content/Music
+  Content/DLC/Music
+
+  To
+    Play your own songs, use the path to that song in your extension.
+  For example, try changing
+    the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
+    <IntroStartupSong>Music/opening.ogg</IntroStartupSong>
+
+    <!-- Sequencer stuff. You won't need this till later.-->
+    <!--
+  <SequencerTargetID>advExamplePC</SequencerTargetID>
+    <SequencerSpinUpTime>10.5</SequencerSpinUpTime>
+    <SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>
+    <ActionsToRunOnSequencerStart>Actions/ThemeSwapActions.xml</ActionsToRunOnSequencerStart>
+  -->
+
+    <!-- Steam workshop fields -->
+    <!--
+  public string WorkshopDescription;
+        public string WorkshopLanguage;
+        public
+    byte WorhsopVisibility = 2;
+        public string WorkshopTags;
+        public string
+    WorkshopPreviewImagePath;
+  -->
+    <WorkshopDescription>[h1]欢迎来到 摩登中学.[/h1]
+
+摩登中学是省级重点公立中等学校, 拥有初中部与高中部. 
+随着互联网技术的发展, 为使学生们适应新时代, 
+摩登中学进行了 信息技术进校园 教学与学校环境的改良.
+                      
+为了隔绝外部的干扰, 给校内一个独立的网络环境, 
+摩登中学搭建并运营着全国唯一校内类互联网网络环境:
+
+
+Modern School Inter Network Environment
+摩登中学校内互联网络环境
+
+
+简称: 摩登校网.
+
+在校内, 学生与社团, 或部皆可以合规的前提下 
+在摩登校网上搭建属于自己的服务器, 为摩登校网上的其他学生提供信息服务. 
+
+校内大部分教学辅助系统也逐渐使用到摩登校网. 
+因此, 学校在摩登校网内搭建的教学系统极大的提高了学生们的学习效率. 
+拥有了摩登校网后, 学校内的一切都变得丰富多样. 
+
+-----------------------------------------------------------
+
+[h1]Welcome to Modern School[/h1]
+
+Modern School is a provincial key public secondary school, whitch with a junior high school and a senior high school. With the development of Internet technology, in order to make students adapt to the new era, Modern School carried out "Information Technology into Campus" teaching and improvement of school environment.
+
+In order to isolate external interference and give the school an independent network environment, Modern School builds and operates the only Internet-like school network environment:
+
+
+Modern School Inter Network Environment
+
+
+Abbreviation: Modern School Network.
+
+In the school, students and clubs can build their own servers on the Modern School Network under the premise of compliance, and provide information services for other students on the Modern School Network.
+
+Most of the teaching assistance systems in the school are gradually using the Modern School Network. Therefore, the teaching system built by the school in the Modern School Network has greatly improved the learning efficiency of the students. With the Modern School Network, everything in the school becomes rich and diverse.
+
+-----------------------------------------------------------
+
+Art Credits:
+- えすにっく・かわひろ:
+  
+The Past 
+https://youtu.be/r5D2vDobQTQ
+
+- Afterlife:
+Ommia
+https://youtu.be/8zB9GZRuBa0
+Sentient
+https://youtu.be/Ar5P1Z0KdOc
+Fragments
+https://youtu.be/9njZYnIUKPo
+
+- KK:
+他愛のない話
+https://youtu.be/liU1EnD6lcw
+
+- VeryGoodMan:
+雨の町子さん
+https://youtu.be/QrbfOJY6Duw
+
+- しゃろう:
+アトリエと電脳世界
+https://youtu.be/4a4hwDRKBJU
+
+- Kevin MacLeod:
+Severe Tire Damage
+https://youtu.be/mOHlMLiqIXY
+
+- Angel Beats! Original Sound Track:
+girl's hop
+https://youtu.be/8bTuNaVfNTE
+-----------------------------------------------------------
+Special Thanks: (Names not listed in order)
+- Err0r233
+- Darkside_0616
+- ZQG
+- Bit
+-----------------------------------------------------------
+Website: https://Modern-School.fbik.top
+Github Repository: https://github.com/Modern-School/Modern-School.Prologue/
+</WorkshopDescription>
+
+    <!-- Language that this is set to. -->
+    <WorkshopLanguage>Chinese</WorkshopLanguage>
+
+    <!-- Sets the visibility of this item on the workshop.
+  0 = public
+  1 = friends only
+  2 =
+    private (self only)-->
+    <WorkshopVisibility>0</WorkshopVisibility>
+
+    <!-- Comma separated list of tags that this should be listed under in the workshop. This is not
+    currently used, as the only category
+  of workshop item in Hacknet is "Extension", so leave
+    this as-is for now.-->
+    <WorkshopTags>Extension, Labyrinths</WorkshopTags>
+
+    <!-- Path to the preview image used on the steam workshop for your extension.
+  This must be
+    within your mod folder, be 16x9 aspect ratio and less than 1MB in size.
+  I recommend the
+    highest resolution you can provide that fits that criteria,
+  though steam will likely use a
+    version less than 512x512 in size, and will auto resize it for you.
+
+  This can be different
+    to the provided Logo.png if you want, as this will not be transparently backed on steam.
+    Supported formats are .png, .jpg and .gif
+  -->
+    <WorkshopPreviewImagePath>Logo.gif</WorkshopPreviewImagePath>
+
+    <!-- This is the workshop publish ID. The first time your extension is published to Steam, this
+    will be automatically populated with the ID that steam assigns it.
+  When this happens, make
+    sure that you keep that version of the file and store the ID somewhere - without it, you wont be
+    able to push out updates to your extension,
+  and if it's removed, publishing to the workshop
+    will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
+  Do not
+    manually modify this unless you already know your Publish ID from a previous submission. A new
+    ID will only be generated if this says "NONE"-->
+    <WorkshopPublishID>NONE</WorkshopPublishID>
+
+    <Language>zh-cn</Language>
+</HacknetExtension>

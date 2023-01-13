@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="annaComp" name="Anna 的笔记本电脑" security="5" allowsDefaultBootModule="false" type="empty" ip="1.1.1.1" icon="DLCLaptop">
+
+
+    <ports>22, 21, 25, 80, 443, 9418</ports>
+    <portRemap>21=265,80=5500,22=2222,9418=22,25=625</portRemap>
+    <proxy time="-1" />
+    <portsForCrack val="6" />
+    <trace time="5" />
+    <firewall level="7" additionalTime="0" />
+
+
+    <file path="sys" name="x-server.sys">#BASE_THEME#</file>
+</Computer>

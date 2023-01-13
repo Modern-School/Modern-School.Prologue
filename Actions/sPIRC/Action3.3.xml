@@ -1,0 +1,12 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/WelcomeToStudentPower.ogg" />
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="1">ZQG</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="3">可恶!</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="6">怎么知道的?!</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="9">你猜</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="12">QAQ</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="14">什么远程读心术</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="16">可怕!</AddIRCMessage>
+    </Instantly>
+</ConditionalActions>

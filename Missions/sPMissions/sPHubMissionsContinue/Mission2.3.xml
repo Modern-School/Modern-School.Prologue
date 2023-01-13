@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission2_2" activeCheck="true">
+    <goals></goals>
+    <nextMission>NONE</nextMission>
+    <posting title="ERROR">
+错错错错
+</posting>
+    <email>
+        <sender>SP_Bot</sender>
+        <subject>任务完成</subject>
+        <body>#PLAYERNAME#, 
+恭喜你完成了以下任务: 
+可疑的日志 
+这是自动通知邮件, 请勿回复. 
+    </body>
+        <attachments></attachments>
+    </email>
+</mission>

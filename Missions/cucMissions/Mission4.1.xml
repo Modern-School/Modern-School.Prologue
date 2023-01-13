@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission4_1">
+    <goals>
+        <goal type="getstring" target="cinac"/>
+    </goals>
+    <missionStart>loadConditionalActions:Actions/cucMissions/Action2.1.xml</missionStart>
+    <nextMission>Missions/cucMissions/Mission4.2.xml</nextMission>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>Re: 新工具获取</subject>
+        <body>第二个叫: 
+MemoryDumpGenerator内存转储生成器 
+它会转储目标计算机内存到本地, 然后你就可以使用MemoryForensics来查看目标计算机内存里的内容了. 
+试试转储我的网站的内存, 并且查看内存中的进程文件, 将内容告诉我. 
+        </body>
+        <attachments>
+            <link comp="cucWeb" />
+        </attachments>
+    </email>
+</mission>

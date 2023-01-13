@@ -1,0 +1,14 @@
+<ConditionalActions>
+    <OnDisconnect target="hwFTP">
+        <LaunchHackScript
+            Filepath="HackerScripts/snomAttack.txt"
+            DelayHost="delayHost"
+            SourceComp="snomComp"
+            TargetComp="playerComp"
+            RequireLogsOnSource="false"
+            RequireSourceIntact="false" />
+        <SetLock DelayHost="delayHost" Delay="3" Module="terminal" IsLocked="true" IsHidden="true" />
+        <SetLock DelayHost="delayHost" Delay="28" Module="terminal" IsLocked="false"
+            IsHidden="false" />
+    </OnDisconnect>
+</ConditionalActions>

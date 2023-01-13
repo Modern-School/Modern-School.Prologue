@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sPAssets" name="Student_Power 资源服务器" security="4" allowsDefaultBootModule="false" type="empty">
+
+    <adminPass pass="Student_Power_Is_Powerful" />
+    <ports>22, 21, 443</ports>
+    <portsForCrack val="3" />
+    <proxy time="-1" />
+    <trace time="-1" />
+
+    <file path="home/releases/SSHCrack" name="SSHCrack-v0.7.2_release.exe">#SSH_CRACK#</file>
+    <file path="home/releases/FTPCrack" name="FTPCrack-dev0.8.1.exe">#FTP_CRACK#</file>
+    <file path="home/tools" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
+    <file path="home/eosDeviceScan" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+
+
+
+</Computer>

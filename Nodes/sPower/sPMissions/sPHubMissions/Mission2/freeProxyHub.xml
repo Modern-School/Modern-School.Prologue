@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="freeProxyHub" name="公共免费代理服务 网页服务器" security="2" allowsDefaultBootModule="true" type="empty">
+
+
+  <ports>80</ports>
+  <portsForCrack val="1" />
+  <tracker />
+  <admin type="fast" isSuper="true" resetPassword="true" />
+  <proxy time="3"/>
+  <trace time="60" />
+
+  <addWebServer name="公共免费代理服务 主页" url="Web/freeProxyHub.html" />
+  <dlink target="freeProxy1" />
+  <dlink target="freeProxy2" />
+  <dlink target="freeProxyDB" />
+</Computer>

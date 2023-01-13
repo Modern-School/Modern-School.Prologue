@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission1_7" activeCheck="true">
+    <goals>
+        <goal type="delay" time="1" />
+    </goals>
+    <nextMission>NONE</nextMission>
+    <posting title="ERROR">
+        啊这
+    </posting>
+    <email>
+        <sender>SP_bot</sender>
+        <subject>资源服务器工具更新</subject>
+        <body>#PLAYERNAME#,
+Student_Power 资源服务器有工具更新, 请去查看.
+这是自动通知邮件, 请勿回复.
+        </body>
+        <attachments>
+            <link comp="sPAssets" />
+        </attachments>
+    </email>
+</mission>

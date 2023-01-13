@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="jmail" name="JMail邮件服务 服务器" ip="J.mail" security="5" type="empty">
+
+    <admin type="fast" isSuper="true" resetPassword="false" />
+    <account username="#PLAYERNAME#" password="rosebud" type="2" />
+    <account username="Edon" password="edonisntidiot" type="2" />
+    <account username="Tom" password="jerry" type="2" />
+    <portsForCrack val="4" />
+    <ports>25, 80, 1433, 443</ports>
+    <firewall level="8" />
+    <proxy time="7" />
+    <trace time="10" />
+
+
+    <mailServer name="JMail 邮件服务" generateJunk="true">
+        <email recipient="Edon" sender="Tom" subject="路由器白名单验证">嘿Edon, 
+
+我怕会有像 Student_Power 这样的啥的黑客团体找我, 我花了点时间研究了下我路由器的白名单功能. 
+
+如果你要用啥新ip连我电脑的话你就把你ip发给我. 
+
+ - Tom</email>
+        <email recipient="Tom" sender="Edon" subject="Re: 路由器白名单验证">行</email>
+        <email recipient="Tom" sender="Edon" subject="加个">加个22.98.167.208</email>
+        <email recipient="Edon" sender="Tom" subject="Re: 加个">Edon, 
+
+好嘞
+
+ - Tom</email>
+        <email recipient="Tom" sender="Edon" subject="再加个">加个22.98.167.210</email>
+<email recipient="Edon" sender="Tom" subject="Re: 再加个">Edon, 
+
+加好了
+
+ - Tom</email>
+        <email recipient="Tom" sender="Edon" subject="加个">加个11.4.5.14</email>
+        <email recipient="Edon" sender="Tom" subject="Re: 再加个">Edon, 
+
+好的
+
+ - Tom</email>
+ <email recipient="Tom" sender="Edon" subject="再加个">加个19.19.8.10</email>
+<email recipient="Edon" sender="Tom" subject="Re: 再加个">滚! 你没事干吗? ip59.142.88.87, 密码asdfghjkl, 自己加去!</email>
+    </mailServer>
+
+
+</Computer>

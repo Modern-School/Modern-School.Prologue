@@ -1,0 +1,5 @@
+<ConditionalActions>
+    <Instantly>
+        <AddAsset FileName="memoryDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="cucWeb" TargetFolderpath="home/tools"/>
+    </Instantly>
+</ConditionalActions>

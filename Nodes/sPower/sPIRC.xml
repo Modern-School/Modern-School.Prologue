@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sPIRC" name="Study_Power" security="3" allowsDefaultBootModule="true" icon="DLCPC1" type="1">
+    <portsForCrack val="2" />
+    <ports>22, 443</ports>
+    <trace time="60"/>
+
+    <IRCDaemon themeColor="135,206,250" name="Study_Power" needsLogin="false">
+        <user name="Evan" color="19,248,253" />
+        <user name="Rany" color="255,153,18" />
+        <user name="Leroy" color="139,69,19" />
+        <user name="Yan" color="254,140,1" />
+        <user name="Base" color="128,128,128" />
+        <user name="Allison" color="201,60,255" />
+        <user name="Cucumber" color="0,255,0" />
+        <user name="Channel" color="255,255,0" />
+        <user name="Peter" color="119,136,153" />
+        <user name="Danika" color="106,90,205" />
+        <user name="TK" color="255,0,0" />
+        <user name="FBIK" color="255,255,255" />
+        <user name="Lily" color="255,165,0" />
+        
+
+        <post user="Evan">我的作文差点没提交成功</post>
+        <post user="Leroy">?</post>
+        <post user="Base">?</post>
+        <post user="Evan">为了赶上截止时间我直接把笔记本电脑带到作业提交终端旁边写作文</post>
+        <post user="Cucumber">啊这</post>
+        <post user="Evan">对了你提交了吗? @Cucumber</post>
+        <post user="Cucumber">额</post>
+        <post user="Evan">不交的话三好学生就没咯</post>
+        <post user="Cucumber">交了交了</post>
+        <post user="Leroy">...</post>
+    </IRCDaemon>
+</Computer>

@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="delayHost" name="穷举测试" allowsDefaultBootModule="false" type="empty">
+  <LogoDaemon Name="绝对防御" ShowsTitle="true" TextColor="255, 255, 255, 200" LogoImagePath="Logo/school.png">绝对防御
+你们都是弟弟</LogoDaemon>
+  <FastActionHost />
+  <adminPass pass="20ZDw0NgQPhuD7590FMUnMed5lNin6a1"/>
+  <portsForCrack val="114514" />
+  <ports>22</ports>
+  <trace time="0.1" />
+  <firewall level="114514" additionalTime="114514"/>
+  <file path="home" name="az.txt">哇, 牛逼</file>
+</Computer>

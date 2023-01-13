@@ -1,0 +1,21 @@
+<ConditionalActions>
+
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/cucTheme.ogg" />
+        <AddAsset FileName="Cucumber_Chinese_Homework_2021-04-02.doc" FileContents="让我敬佩的一个人
+
+她，也许是从外地来工作的阿姨。我无法知道她的经历，只有一面之交。却给了我留下了深刻的印象，一位值得我敬佩的清洁工。
+
+有一次，我和妈妈上街去买东西。回家时正好路过一条肮脏的小街道，街道两旁全都是成堆成堆的垃圾、杂物。还有从旁边酒楼排出来的饭、菜、吃剩的食物，不断地散发出臭气，又引来了一大群的蚊子在那里纷飞。人们闻了都好像会把刚吃过的东西吐出来似的，都纷纷捏住鼻子绕了过去。这时，一位身穿着橙色黄色边制服的清洁工阿姨推着垃圾车来到了这一条肮脏的街道上。她看起来50多岁了，柳叶眉、单眼皮、瓜子脸，脸上都带着笑容，显得十分慈祥。她熟练地把这些垃圾都铲进垃圾车里。尽管苍蝇和蚊子都绕着她飞，但她却毫不在意。接着，又打扫了酒楼排出的那一些食物装上车走了。这时，整个街道都改容换面了，臭气也随之消失了。旁边走过的人们也不断的称赞她。我想：难道她不怕脏，不怕臭吗？噢！原来她是为了这个城市的清洁和美丽。看着她远去的背影，仿佛在我心目中越来越大。
+      
+清洁工阿姨所做的一切看上去似乎很平凡，是她的工作，然而她正是在平凡的工作中兢兢业业、任劳任怨，她是我心目中最值得敬佩的阿姨。" TargetComp="cucWeb" TargetFolderpath="home/file" />
+        <LaunchHackScript 
+        Filepath="HackerScripts/sPAttack.txt" 
+        DelayHost="delayHost" 
+        SourceComp="sPAttacker" 
+        TargetComp="toolSellerOld" 
+        RequireLogsOnSource="false" 
+        RequireSourceIntact="false" />
+    </Instantly>
+
+</ConditionalActions>

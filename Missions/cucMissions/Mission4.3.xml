@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission4_3" activeCheck="true">
+    <goals>
+        <goal type="delay" time="15"/>
+    </goals>
+    <missionStart>loadConditionalActions:Actions/sPIRC/Action3.2.xml</missionStart>
+    <nextMission>Missions/cucMissions/Mission4.4.xml</nextMission>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>Re: 帮个小忙呗awa</subject>
+        <body>嘶......还真是加密的a
+谢啦! 
+        </body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

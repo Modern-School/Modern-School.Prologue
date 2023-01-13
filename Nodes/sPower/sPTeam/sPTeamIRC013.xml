@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="sPTeamIRC013" name="Student_Power 013作战组 IRC服务器" security="3" allowsDefaultBootModule="true" icon="DLCPC1" type="1">
+    <portsForCrack val="2" />
+    <ports>80, 443</ports>
+    <trace time="20"/>
+    <proxy time="5"/>
+    <admin type="fast" isSuper="true" resetPassword="true"/>
+    <DHSDaemon groupName="Student_Power 013作战组" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="false" themeColor="0,128,128" allowContractAbbandon="false">
+        <agent name="Channel" pass="rMY6wvP6" color="255,255,0"/>
+        <agent name="Buzz" pass="Bajl93VX" color="19,248,253"/>
+        <agent name="Walther" pass="V6vr7OEn" color="255,153,18"/>
+        <agent name="Base" pass="uYPwM1y0" color="128,128,128"/>
+        <agent name="Porter" pass="hn4gCY6A" color="201,60,255"/>
+        <agent name="TK" pass="Bd7dhD9W" color="255,0,0"/>
+        <agent name="Porter" pass="PFm5aUv5" color="119,136,153"/>
+    </DHSDaemon>
+</Computer>

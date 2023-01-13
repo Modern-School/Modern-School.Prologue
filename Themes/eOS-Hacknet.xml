@@ -1,0 +1,31 @@
+<CustomTheme>
+    <themeLayoutName>blue</themeLayoutName>
+    <backgroundImagePath>Themes/Backgrounds/eOS-Hacknet.png</backgroundImagePath>
+  
+    <defaultHighlightColor>255,255,255,100</defaultHighlightColor>
+    <defaultTopBarColor>0,0,0</defaultTopBarColor>
+    <warningColor>255,0,0</warningColor>
+  
+    <shellColor>222, 201, 24</shellColor>
+    <shellButtonColor>105, 167, 188</shellButtonColor>
+  
+    <moduleColorSolidDefault>50, 59, 90, 255</moduleColorSolidDefault>
+    <moduleColorStrong>14, 28, 40, 0</moduleColorStrong>
+    <moduleColorBacking>5, 6, 7, 165</moduleColorBacking>
+  
+    <AFX_KeyboardMiddle>77, 145, 255</AFX_KeyboardMiddle>
+    <AFX_KeyboardOuter>105, 138, 255</AFX_KeyboardOuter>
+    <AFX_WordLogo>105, 138, 255</AFX_WordLogo>
+    <AFX_Other>0, 178, 255</AFX_Other>
+  
+    <thisComputerNode>75, 235, 112</thisComputerNode>
+  
+    <exeModuleTopBar>130, 65, 27, 80</exeModuleTopBar>
+    <exeModuleTitleText>155, 85, 37, 0</exeModuleTitleText>
+  
+    <lockedColor>85,17,6,250</lockedColor>
+    <brightLockedColor>180,30,0</brightLockedColor>
+    <brightUnlockedColor>0,180,30</brightUnlockedColor>
+    <unlockedColor>31,81,41</unlockedColor>
+    
+  </CustomTheme>

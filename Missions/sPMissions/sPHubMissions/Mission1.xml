@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPHubMission1" activeCheck="true">
+    <goals>
+        <goal type="filedeletion" target="artWeb" file="trap_circle.bat" path="bin"/>
+    </goals>
+    <missionStart>playCustomSong:Music/sPHubMission1.ogg</missionStart>
+    <nextMission>Missions/sPMissions/sPHubMissionsContinue/Mission1.2.xml</nextMission>
+<posting title="被电摇了QAQ">
+美术社的参赛作品展示网站被入侵了, 网页的内容被恶意修改为嘲讽的内容.
+入侵者让美术社成员无法控制服务器.
+我们不能允许这样的行为在我校流行.
+</posting>
+    <email>
+        <sender>Allison</sender>
+        <subject>同学好</subject>
+        <body>Leroy说你可以帮我们解决这个问题, 太感谢你了, #PLAYERNAME#.
+美术社将要在不久代表摩登中学参加省级线上美术作品比赛, 而在比赛中我们需要通过网页服务器来展示我们的作品. 
+计算机部为我们社团提供了免费的虚拟主机.
+昨天美术社成员都找我, 告状说有人在我们的网站上乱放图片. 
+我们的技术成员想尝试登录服务器, 但是不知道为什么每次登录设备就会蓝屏. 
+我们向计算机部反馈, 信息老师说为了保证社团隐私, 虚拟主机被设计成他们也无法访问的情况.
+计算机部可以通过重置虚拟主机来恢复我们的控制能力, 但是它们正在进行虚拟主机分配算法的维护.
+而这个服务器的ip地址已经与参赛声请一起上传了.
+我们向Student_Power寻求帮助, Leroy跟我说服务器一定被恶意入侵了, 并且在今天告诉我你会帮助我们解决这个问题.
+这次比赛给予我们社团升级为部的难得的机会, 它对于我们来说非常重要.
+希望你帮我们解决这个问题.
+- Allison
+        </body>
+        <attachments>
+            <link comp="artWeb" />
+        </attachments>
+    </email>
+</mission>

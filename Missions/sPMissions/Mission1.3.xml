@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="sPMission1_3" activeCheck="true">
+    <goals>
+        <goal type="delay" time="1" />
+    </goals>
+    <missionEnd>loadConditionalActions:Actions/sPIRC/Action.xml</missionEnd>
+    <nextMission>NONE</nextMission>
+    <email>
+        <sender>Student_Power</sender>
+        <subject>Re: 恭喜通过!</subject>
+        <body>#PLAYERNAME#,
+很好, 看来你拿到了你所需的东西. 那么, 你就可以正式地开始接受Student_Power的各项任务了.
+附件里我给出了任务资源数据库的ip地址与你用于领取任务的账号.
+我们经营的IRC服务器 Study_Power 的ip地址也存在于附件中.
+记得每完成一个任务后看看 Study_Power 的信息.
+当你有空的时候, 就去接受并完成你的第一项任务吧.
+届时我将会再次联系你来评估你的任务进度.
+ - Leroy
+        </body>
+        <attachments>
+            <link comp="sPHub" />
+            <account comp="sPHub" user="#PLAYERNAME#" pass="Student_Power_Is_Powerful" />
+            <link comp="sPIRC" />
+        </attachments>
+    </email>
+</mission>

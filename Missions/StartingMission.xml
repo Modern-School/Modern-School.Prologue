@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="startingMission" activeCheck="true">
+    <goals>
+        <goal type="delay" time="0.1" />
+    </goals>
+    <nextMission>Missions/cucMissions/Mission.xml</nextMission>
+    <email>
+        <sender>Admin</sender>
+        <subject>欢迎使用 Jmail</subject>
+        <body>#PLAYERNAME#, 您好. 欢迎使用Jmail!
+
+Jmail由计算机部服务组运营, 为摩登校网提供免费的邮箱服务.
+
+Jmail算法强大.
+邮箱收发低延迟, 可同时为摩登校网全校师生提供便捷的邮件服务.
+
+Jmail尊重隐私.
+使用自研高级防火墙, 保证每一位用户的隐私安全;
+使用"同域内传"技术, Jmail用户之间的邮件只在Jmail服务器里传输;
+使用封闭式设计, 没有人拥有管理员权限, 包括我, 运营组与校方.
+
+对了, 这是对新用户自动发送的邮件, 请勿回复.
+
+再次欢迎您使用Jmail! </body>
+        <attachments>
+            <link comp="jmail" />
+            <link comp="modernWeb" />
+            <link comp="studentUnion" />
+            <link comp="newsWeb" />
+        </attachments>
+    </email>
+</mission>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="api.ce" name="eOS服务 CE 应用程序接口" security="5" type="empty" ip="api.ce.eosservice.net">
+  <adminPass pass="mdw"/>
+  <admin type="fast" isSuper="true" resetPassword="false"/>
+  <ports>80, 443</ports>
+  <portsForCrack val="2" />
+  <firewall level="4" additionalTime="0.1" />
+  <proxy time="15"/>
+  <trace time="20" />
+  <LogoCustomConnectDisplayDaemon logo="Logo/school.png" title="Logo/title.png" overdrawLogo="true" buttonAlignment="right"/>
+</Computer>

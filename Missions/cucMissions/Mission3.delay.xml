@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="cucMission3Delay" activeCheck="true">
+  <goals>
+    <goal type="delay" time="1"/>
+  </goals>
+  <nextMission IsSilent="true">Missions/cucMissions/Mission3.xml</nextMission>
+  <email>
+    <sender>Mail_Bot</sender>
+    <subject>待处理请求</subject>
+    <body>
+      邮件服务器为你暂挂了一个请求. 
+      请稍等. 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

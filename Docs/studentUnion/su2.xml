@@ -1,0 +1,30 @@
+<mission id="su2">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="操作系统线下统计结果">以下为调查结果:
+电脑操作系统: 统计人数: 2000人
+1. 44% eOS 桌面版
+2. 33% Open-eOS 桌面版
+3. 23% eOS CE 桌面版
+
+移动设备操作系统: 统计人数: 3000人
+1. 94% eOS
+2. 5.5% Open-eOS 便携设备版
+3. 0.5% eOS CE 便携设备版
+
+服务器操作系统: 统计人数: 100人
+1. 58% Open-eOS 核心版
+2. 39% eOS 服务器版
+3. 3% eOS CE 核心版
+
+摩登中学学生会 调查组
+日期: 2021年3月29日
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

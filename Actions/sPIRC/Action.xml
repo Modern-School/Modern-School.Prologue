@@ -1,0 +1,5 @@
+<ConditionalActions>
+    <OnConnect target="sPIRC">
+        <AddConditionalActions Filepath="Actions/sPIRC/Action0.xml" DelayHost="delayHost" Delay="0"/>
+    </OnConnect>
+</ConditionalActions>

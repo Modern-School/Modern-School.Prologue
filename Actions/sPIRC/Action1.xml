@@ -1,0 +1,37 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/happyIRC.ogg" />
+        <LaunchHackScript 
+        Filepath="HackerScripts/clean.txt" 
+        DelayHost="delayHost"  
+        SourceComp="neverComp" 
+        TargetComp="toolSeller" 
+        RequireLogsOnSource="false" 
+        RequireSourceIntact="false"/>
+        <HideNode DelayHost="delayHost" Delay="0" TargetComp="artWeb"/>
+        <ChangeIP DelayHost="delayHost" Delay="0" TargetComp="artWeb" NewIP="#RANDOM_IP#" />
+        <DeleteFile TargetComp="artWeb" FilePath="web" FileName="index.html" DelayHost="delayHost" Delay="0"/>
+        <CrashComputer TargetComp="artWeb" CrashSource="artWeb" DelayHost="delayHost"/>
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="5">美术社的网页能上啦</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="7">ohhhhhhhhh</AddIRCMessage>
+        <AddIRCMessage Author="Rany" TargetComp="sPIRC" Delay="7.5">ohhhhhhhhh</AddIRCMessage>
+        <AddIRCMessage Author="Danika" TargetComp="sPIRC" Delay="8">wow</AddIRCMessage>
+        <AddIRCMessage Author="Peter" TargetComp="sPIRC" Delay="10">太好了!</AddIRCMessage>
+        <AddIRCMessage Author="Allison" TargetComp="sPIRC" Delay="11">是的</AddIRCMessage>
+        <AddIRCMessage Author="Danika" TargetComp="sPIRC" Delay="11">恭喜!</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="12">干得好, 伙计!</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="14">有谁知道"spsb"是什么意思?</AddIRCMessage>
+        <AddIRCMessage Author="Allison" TargetComp="sPIRC" Delay="15">?!</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="17">emmm</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="17.5">Study Power So Big!</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="20">学习的力量真大啊</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="21">啊这</AddIRCMessage>
+        <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="23">应该...不是</AddIRCMessage>
+        <AddIRCMessage Author="TK" TargetComp="sPIRC" Delay="24">Just wild heaven</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="25">不知道, 不过马上就会知道了...大概</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="27">Leroy打字这么慢(?</AddIRCMessage>
+        <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="30">只是我有事干啦</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="32">话送美术社网页是谁搞的电摇</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="33.5">电摇嘲讽.gif</AddIRCMessage>
+    </Instantly>
+</ConditionalActions>

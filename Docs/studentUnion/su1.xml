@@ -1,0 +1,19 @@
+<mission id="su2">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission> 
+<posting title="作业提交系统将会进行全面升级">我校将在下个月全面升级 作业提交系统 , 将对该系统的已知问题进行优化.
+系统更新时, 为使作业正常提交, 将会暂时使用旧作业提交系统进行作业统计. 
+
+各班的作业上传终端将会统一放置于2号楼架空层, 届时作业截止时间将会晚1小时, 请各位同学把握时间.
+
+摩登中学初中部 系统组
+日期: 2021年3月29日
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

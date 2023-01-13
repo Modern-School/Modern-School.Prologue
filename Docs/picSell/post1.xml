@@ -1,0 +1,20 @@
+<mission id="post1">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="图片列表">欲获得以下女生的校园之美, 请前往资源服务器并通过DECHead获取卖家邮箱
+Lily
+Danika
+
+资源服务器
+ip: 135.80.2.220
+账号: admin
+密码: beautiful
+</posting>  
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

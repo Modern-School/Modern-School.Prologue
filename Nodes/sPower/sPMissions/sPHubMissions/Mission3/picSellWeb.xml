@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="picSellWeb" name="校园之美 网页服务器" security="1" type="empty">
+
+    <variableMissionListingServer 
+    name="售卖列表" 
+    articleFolderPath="Docs/picSell" 
+    color="	255,192,203" 
+    assigner="false" 
+    public="true" 
+    title="售卖列表"/>
+    <ports>22, 80</ports>
+    <portsForCrack val="2" />
+    <trace time="-1" />
+    
+</Computer>

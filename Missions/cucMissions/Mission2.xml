@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission2" activeCheck="true">
+    <goals>
+        <goal type="getadmin" target="hwFTP"/>
+    </goals>
+    <missionStart>loadConditionalActions:Actions/cucMissions/Action1.xml</missionStart>
+    <nextMission>Missions/cucMissions/Mission2.2.xml</nextMission>
+    <branchMissions>
+        <branch>Missions/cucMissions/Mission3.xml</branch>
+        <branch>Missions/cucMissions/Mission2.n.xml</branch>
+    </branchMissions>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>小试牛刀</subject>
+        <body>能帮我解决一个问题吗? 通过这来试试用这个系统的集成工具, 看看它有多么高大上吧.
+昨天我的语文作文忘记交了, 帮我补交一下呗awa.
+我刚刚去看了看那个作业提交终端, 已经不允许提交昨天的语文作文了.
+可能是用于方便测试作业提交终端, 有个设备信息的按钮, 于是我有幸获得到了它的ip地址.
+我的语文作文已经放到服务器的/home/file目录了.
+帮帮我吧, 这次不提交的话, 我的 三好学生 就没了qwq.
+        </body>
+        <attachments>
+            <link comp="cucWeb" />
+            <link comp="hwUploader" />
+        </attachments>
+    </email>
+</mission>

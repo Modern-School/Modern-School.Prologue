@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="newsWeb" name="摩登中学新闻部 网页服务器" ip="news.modern.edu" security="4" type="empty">
+
+  <admin type="fast" isSuper="true" resetPassword="true"/>
+  <ports>80, 443</ports>
+  <portsForCrack val="2" />
+  <firewall level="4" additionalTime="0.1" />
+  <proxy time="15"/>
+  <trace time="20" />
+  <CustomConnectDisplayDaemon />
+  <variableMissionListingServer 
+    name="摩登中学 新闻部" 
+    articleFolderPath="Docs/news" 
+    color="189,183,107" 
+    assigner="false" 
+    public="true" 
+    title="摩登中学 新闻"/>
+
+</Computer>

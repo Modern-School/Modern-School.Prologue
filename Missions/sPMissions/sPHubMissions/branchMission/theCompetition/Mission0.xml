@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="theCompetitionMission0">
+    <goals></goals>
+    <nextMission>NONE</nextMission>
+<posting title="来自对手的威胁">
+机器人部准备参与摩登学校的机器人足球大赛, 
+有一场比赛他们的对手是摩登高中部的前辈. 
+
+但是高中部的前辈被我们初中部的后辈完胜, 
+非常愤怒, 扬言要用信息技术让机器人部后期的比赛输得彻底.
+</posting>
+    <email>
+        <sender>Evan</sender>
+        <subject>拆C4</subject>
+        <body>
+你好, #PLAYERNAME#.
+祝你好运.
+        </body>
+        <attachments>
+            <link comp="toolSellerOld" />
+        </attachments>
+    </email>
+</mission>

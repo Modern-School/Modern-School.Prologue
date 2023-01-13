@@ -1,0 +1,18 @@
+<mission id="tut2">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Probe: Nmap for Porthack">基于Nmap, 为搭配Porthack而开发的嗅探工具, 已经集成于HacknetOS.
+
+连接到计算机后使用 Probe 命令运行此程序.
+
+
+Probe将会列出该计算机系统所使用的端口, 并自动获取可以正常运行 Porthack 所需要的端口数量.
+</posting>
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

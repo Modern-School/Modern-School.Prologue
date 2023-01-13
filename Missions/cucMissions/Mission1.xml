@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission1" activeCheck="true">
+    <goals>
+        <goal type="filedownload" target="cucWeb" file="NetmapOrganizer.exe" path="home/tools" />
+    </goals>
+    <nextMission>Missions/cucMissions/Mission2.xml</nextMission>
+    <branchMissions>
+        <branch>Missions/cucMissions/Mission3.xml</branch>
+    </branchMissions>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>获取系统的配套工具并查看操作指南</subject>
+        <body>看来真的是秘密研发的. 我们竟然获得到了一个用来内部测试的系统!!!
+看起来应该是Open-eOS操作系统的分发版.
+对了, 还记得我搭建的网页服务器吗? 我把你上次给我的系统配套操作指南挂网站了, 虽然你可能已经背熟了.
+我把一些放在虚拟机外的系统配套程序上传在了/home/tools里, 顺便把它们下载下来看看它们有没有什么用吧.
+        </body>
+        <attachments>
+            <link comp="cucWeb" />
+            <account comp="cucWeb" user="admin" pass="cinac" />
+        </attachments>
+    </email>
+</mission>

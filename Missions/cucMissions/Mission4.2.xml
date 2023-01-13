@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="cucMission4_2" activeCheck="true">
+    <goals>
+        <goal type="fileupload" target="sPUpload" file="Peter_Maths_Homework_2021-04-04.dec" path="Upload" destTarget="cucWeb" destPath="home/file"/>
+    </goals>
+    <nextMission>Missions/cucMissions/Mission4.3.xml</nextMission>
+    <email>
+        <sender>Cucumber</sender>
+        <subject>帮个小忙呗awa</subject>
+        <body>Peter将它被加密的数学作业上传到了"资源服务器"里, 
+我不知道他指的是哪个, 不过应该是Student_Power的其中一个"资源服务器". 
+帮我找到并且上传至我网站的home/file目录. 
+        </body>
+        <attachments>
+            <link comp="cucWeb" />
+        </attachments>
+    </email>
+</mission>

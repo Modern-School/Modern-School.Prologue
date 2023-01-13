@@ -1,0 +1,15 @@
+<mission id="tut1">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="PortHack">支持多个端口的管理员密码破解工具PortHack已经集成于HacknetOS.
+
+连接到计算机后使用 Porthack 命令运行此程序.
+</posting>
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

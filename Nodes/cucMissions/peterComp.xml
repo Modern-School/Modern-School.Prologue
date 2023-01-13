@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="peterCompOld" name="Peter 的电脑" security="0" allowsDefaultBootModule="false" type="empty"
+    icon="laptop" ip="187.9.254.110">
+
+    <ports>25</ports>
+    <portsForCrack val="1" />
+    <file path="bin" name="Encypher.exe">#BINARYSMALL#</file>
+    <file path="bin" name="connect.exe">#BINARYSMALL#</file>
+    <trace time="-1" />
+    <Memory>
+        <Commands>
+            <Command>cd home</Command>
+            <Command>Encrypher -f Peter_Maths_Homework_2021-04-04.doc -p ZQG</Command>
+            <Command>rm Peter_Maths_Homework_2021-04-04.doc</Command>
+            <Command>connect 155.244.201.153</Command>
+            <Command>upload home/Peter_Maths_Homework_2021-04-04.doc</Command>
+            <Command>disconnet</Command>
+        </Commands>
+        <Data>
+            <Block>Easter Egg</Block>
+            <Block>Special Thanks: ZQG</Block>
+        </Data>
+        <Images>
+            <Image></Image>
+        </Images>
+    </Memory>
+
+</Computer>

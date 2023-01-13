@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="cyanComp" name="Cyan 的电脑" security="1" allowsDefaultBootModule="false" type="empty">
+
+    
+    <ports>22, 21, 25</ports>
+    <portsForCrack val="3" />
+
+    <trace time="-1" />
+    <dlink target="arlanComp"/>
+</Computer>

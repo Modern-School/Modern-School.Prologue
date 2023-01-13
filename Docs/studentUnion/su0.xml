@@ -1,0 +1,13 @@
+<mission id="su0">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="我们是摩登中学学生会">欢迎, 学生会与学校将在这里发布消息.
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>
