@@ -36,7 +36,7 @@ Modern School is not finished, the Prologue version is expected to play for less
 *アトリエと電脳世界*
 <https://youtu.be/4a4hwDRKBJU>
 
-- **Kevin MacLeod**
+- **Kevin MacLeod**:
 
 *Severe Tire Damage*
 <https://youtu.be/mOHlMLiqIXY>
