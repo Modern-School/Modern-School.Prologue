@@ -35,7 +35,7 @@
 <AppendToFile DelayHost="delayHost" Delay="0" TargetComp="sUTestMailServer" TargetFolderpath="mail/accounts/user2048/inbox" TargetFilename="具有隐私的邮件">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
 link#%#[转正测试] 局域网渗透测试 路由器#%#167.151.91.28</AppendToFile>
 <AppendToFile DelayHost="delayHost" Delay="0" TargetComp="jmail" TargetFolderpath="mail/accounts/Edon/inbox" TargetFilename="Re:再加个">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
-link#%#Tom 的路由器#%#59.142.88.87
+link#%#Tom 的路由器#%#59.142.88.87@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
 @*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
 account#%#Tom 的路由器#%#59.142.88.87#%#admin#%#asdfghjkl</AppendToFile>
     </Instantly>
