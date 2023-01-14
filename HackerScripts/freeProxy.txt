@@ -1,3 +1,0 @@
-config [TARGET_COMP] [SOURCE_COMP] 0 $#%#$
-connect $#%#$
-disconnect $#%#$
