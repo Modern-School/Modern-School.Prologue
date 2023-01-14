@@ -11,7 +11,7 @@
 
 
     <mailServer name="[转正测试] 隐私获取测试 邮件服务" generateJunk="true">
-<email recipient="user2048" sender="test@su.modern.edu" subject="[转正测试] 具有隐私的邮件">这里是什么什么服务, 然后最近你使用了以下ip来连接到我们的服务, 确认下:
+<email recipient="user2048" sender="test@su.modern.edu" subject="具有隐私的邮件">这里是什么什么服务, 然后最近你使用了以下ip来连接到我们的服务, 确认下:
 
 167.151.91.28
 </email>

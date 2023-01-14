@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="tomLAN" name="Tom 的路由器" security="0" allowsDefaultBootModule="false" type="empty" icon="chip" ip="59.142.88.87">
+    <adminPass pass="asdfghjkl"/>
     <ports>22, 80</ports>
     <portsForCrack val="2" />
     <trace time="-1" />
