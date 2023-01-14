@@ -15,12 +15,12 @@ Abbreviation: Modern School Network.
 In the school, students and clubs can build their own servers on the Modern School Network under the premise of compliance, and provide information services for other students on the Modern School Network.
 
 Most of the teaching assistance systems in the school are gradually using the Modern School Network. Therefore, the teaching system built by the school in the Modern School Network has greatly improved the learning efficiency of the students. With the Modern School Network, everything in the school becomes rich and diverse.
+
 # Art Credits
 -**えすにっく・かわひろ**:
   
 *The Past* 
 <https://youtu.be/r5D2vDobQTQ>
-
 
 - **Afterlife**:
 

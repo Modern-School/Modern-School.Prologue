@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="sPUpload" name="Student_Power 外部资源服务器" security="4" allowsDefaultBootModule="true" type="empty" ip="155.244.201.153">
 
-    <adminPass pass="asdfghjkl"/>
+    <adminPass pass="5TpGaU91q"/>
     <ports>22, 21, 443</ports>
     <portsForCrack val="3" />
     <proxy time="7" />

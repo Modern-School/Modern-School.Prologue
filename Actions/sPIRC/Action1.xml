@@ -31,7 +31,7 @@
         <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="25">不知道, 不过马上就会知道了...大概</AddIRCMessage>
         <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="27">Leroy打字这么慢(?</AddIRCMessage>
         <AddIRCMessage Author="Leroy" TargetComp="sPIRC" Delay="30">只是我有事干啦</AddIRCMessage>
-        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="32">话送美术社网页是谁搞的电摇</AddIRCMessage>
+        <AddIRCMessage Author="Evan" TargetComp="sPIRC" Delay="32">话说美术社网页是谁搞的电摇</AddIRCMessage>
         <AddIRCMessage Author="Cucumber" TargetComp="sPIRC" Delay="33.5">电摇嘲讽.gif</AddIRCMessage>
     </Instantly>
 </ConditionalActions>

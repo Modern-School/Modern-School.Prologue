@@ -4,7 +4,9 @@
     <portsForCrack val="0" />
     <trace time="-1" />
     <adminPass pass="CaO+H2O=CaCO3"/>
-
+    <file path="log" name="@21_245.164.238.27_Disconnected">@21 245.164.238.27 Disconnected</file>
+    <file path="log" name="@7_245.164.238.27_Became_Admin">@7 245.164.238.27 Became Admin</file>
+    <file path="log" name="@5_Connection:_from_245.164.238.27">@5 Connection: from 245.164.238.27</file>
     <file path="home" name="化学实验报告7.doc">
 一、实验目的：
 

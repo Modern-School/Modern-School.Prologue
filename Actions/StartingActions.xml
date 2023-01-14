@@ -16,13 +16,6 @@
             RequireLogsOnSource="false"
             RequireSourceIntact="false" />
         <LaunchHackScript
-            Filepath="HackerScripts/freeProxy.txt"
-            DelayHost="delayHost"
-            SourceComp="freeProxy1"
-            TargetComp="sciAssets"
-            RequireLogsOnSource="false"
-            RequireSourceIntact="false" />
-        <LaunchHackScript
             Filepath="HackerScripts/sPOpen.txt"
             DelayHost="delayHost"
             SourceComp="sPTest"

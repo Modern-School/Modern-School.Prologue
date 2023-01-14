@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="freeProxy1" name="公共免费代理节点1" security="0" allowsDefaultBootModule="false" type="empty" icon="chip">
+<Computer id="freeProxy1" name="公共免费代理节点1" security="0" allowsDefaultBootModule="false" type="empty" icon="chip" ip="245.164.238.27">
 
     
     <ports>80, 1433</ports>

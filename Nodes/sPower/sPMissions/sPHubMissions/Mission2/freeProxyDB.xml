@@ -16,7 +16,7 @@
         <BanStatus>False</BanStatus>
 <Notes>
 ip: 75.229.208.198
-proxy: 2
+节点号: 2
 </Notes>
     </OnlineAccount>
     <OnlineAccount>
@@ -25,7 +25,7 @@ proxy: 2
         <BanStatus>False</BanStatus>
 <Notes>
 ip: 9.125.129.40
-proxy: 2
+节点号: 2
 </Notes>
     </OnlineAccount>
     <OnlineAccount>
@@ -34,7 +34,7 @@ proxy: 2
         <BanStatus>False</BanStatus>
 <Notes>
 ip: 23.57.193.70
-proxy: 1
+节点号: 1
 </Notes>
     </OnlineAccount>
     <OnlineAccount>
@@ -43,18 +43,18 @@ proxy: 1
         <BanStatus>False</BanStatus>
 <Notes>
 ip: 61.73.185.122
-proxy: 2
+节点号: 2
 </Notes>
     </OnlineAccount>
     <OnlineAccount>
         <ID>4</ID>
         <Username>Anna</Username>
-        <BanStatus>False</BanStatus>
+        <BanStatus>True</BanStatus>
 <Notes>
 ip: 1.1.1.1
-proxy: 1
+节点号: 1
 
-备注: 帮忙测试本服务安全性的学生会技术人员
+备注: 此人是学生会技术人员, 为防止中间人攻击, 不允许享受免费服务. 
 </Notes>
     </OnlineAccount>
 </DatabaseDaemon>
