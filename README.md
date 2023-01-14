@@ -3,6 +3,18 @@ A Hacknet Extension made by FBIK.
 
 Modern School is not finished, the Prologue version is expected to play for about 1 hour. 
 
+# The Plot
+Modern School is a provincial key public secondary school, whitch with a junior high school and a senior high school. With the development of Internet technology, in order to make students adapt to the new era, Modern School carried out "Information Technology into Campus" teaching and improvement of school environment.
+
+In order to isolate external interference and give the school an independent network environment, Modern School builds and operates the only Internet-like school network environment:
+
+Modern School Inter Network Environment
+
+Abbreviation: Modern School Network.
+
+In the school, students and clubs can build their own servers on the Modern School Network under the premise of compliance, and provide information services for other students on the Modern School Network.
+
+Most of the teaching assistance systems in the school are gradually using the Modern School Network. Therefore, the teaching system built by the school in the Modern School Network has greatly improved the learning efficiency of the students. With the Modern School Network, everything in the school becomes rich and diverse.
 # Art Credits
 -**えすにっく・かわひろ**:
   
