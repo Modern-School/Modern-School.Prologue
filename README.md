@@ -1,5 +1,5 @@
 # Modern School : Prologue
-A Hacknet Extension made by FBIK.
+A Hacknet Extension made by [FBIK.](https://github.com/bovinebeta).
 
 Modern School is not finished, the Prologue version is expected to play for about 1 hour. 
 
@@ -17,6 +17,7 @@ In the school, students and clubs can build their own servers on the Modern Scho
 Most of the teaching assistance systems in the school are gradually using the Modern School Network. Therefore, the teaching system built by the school in the Modern School Network has greatly improved the learning efficiency of the students. With the Modern School Network, everything in the school becomes rich and diverse.
 
 # Art Credits
+
 -**えすにっく・かわひろ**:
   
 *The Past* 

@@ -73,7 +73,6 @@ Jmail 免费邮箱服务.
     WorkshopPreviewImagePath;
   -->
     <WorkshopDescription>[h1]欢迎来到 摩登中学.[/h1]
-
 摩登中学是省级重点公立中等学校, 拥有初中部与高中部. 
 随着互联网技术的发展, 为使学生们适应新时代, 
 摩登中学进行了 信息技术进校园 教学与学校环境的改良.
@@ -97,8 +96,7 @@ Modern School Inter Network Environment
 
 -----------------------------------------------------------
 
-[h1]Welcome to Modern School[/h1]
-
+[h1]Welcome to Modern School.[/h1]
 Modern School is a provincial key public secondary school, whitch with a junior high school and a senior high school. With the development of Internet technology, in order to make students adapt to the new era, Modern School carried out "Information Technology into Campus" teaching and improvement of school environment.
 
 In order to isolate external interference and give the school an independent network environment, Modern School builds and operates the only Internet-like school network environment:
@@ -115,13 +113,18 @@ Most of the teaching assistance systems in the school are gradually using the Mo
 
 -----------------------------------------------------------
 
-Modern School未完成, Prologue版本预计游玩时间为1小时. 
-Modern School is not finished, the Prologue version is expected to play for about 1 hour. 
+[h2]NOTICE![/h2]
+You need Hacknet - Labyrinths(DLC) to use this Extension. 
+你需要 Hacknet - Labyrinths(DLC) 来使用这个扩展. 
+
+Modern School 未制作完成, 这是序幕版本. 预计游玩时间为 1 小时. 
+Modern School is not finished, this is  Prologue version. It expected to play for about 1 hour. 
 
 -----------------------------------------------------------
+
 Art Credits:
-- えすにっく・かわひろ:
-  
+
+- えすにっく・かわひろ:  
 The Past 
 https://youtu.be/r5D2vDobQTQ
 
@@ -152,14 +155,22 @@ https://youtu.be/mOHlMLiqIXY
 - Angel Beats! Original Sound Track:
 girl's hop
 https://youtu.be/8bTuNaVfNTE
+
 -----------------------------------------------------------
+
+Author: FBIK. (a.k.a Bovine Beta)
+My Website: https://fbik.top
+Contact Me: fbik@fbik.top
+
 Special Thanks: (Names not listed in order)
 - Err0r233
 - Darkside_0616
 - ZQG
 - Bit
 - Wh1teCatcats
+
 -----------------------------------------------------------
+
 Website: https://Modern-School.fbik.top
 
 Github Repository: https://github.com/Modern-School/Modern-School.Prologue/
