@@ -3,7 +3,7 @@
   <ports>22, 21</ports>
   <portsForCrack val="2"/>
   <trace time="20" />
-  <file path="home" name="key.txt">55beb96643</file>
+  <file path="home" name="key.txt">zqF0D2</file>
 
 <dlink target="sUTestWatcher"/>
 </Computer>

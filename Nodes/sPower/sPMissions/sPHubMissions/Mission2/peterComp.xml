@@ -509,15 +509,25 @@ $ clash -f /etc/clash/config.yaml
     <Memory>
         <Commands>
             <Command>cd home</Command>
-            <Command>Encrypher -f Peter_Maths_Homework_2021-04-04.doc -p ZQG</Command>
+            <Command>Encrypher -i Peter_Maths_Homework_2021-04-04.doc -p 6623631518108497</Command>
             <Command>rm Peter_Maths_Homework_2021-04-04.doc</Command>
             <Command>connect 155.244.201.153</Command>
             <Command>upload home/Peter_Maths_Homework_2021-04-04.doc</Command>
             <Command>disconnet</Command>
         </Commands>
         <Data>
-            <Block>Easter Egg</Block>
-            <Block>Special Thanks: ZQG</Block>
+            <Block>Bovine Beta: Hello everyone, I have encountered a problem. The Decypher decrypted the dec files without the passwords of my two encrypted Files.</Block>
+            <Block>Bovine Beta: [Code][Image]</Block>
+            <Block>Fayti1703: Looks like the password(s) you picked happened to have the same hash code as the empty string. </Block>
+            <Block>Fayti1703: Can't really do much about that except picking a different password.</Block>
+            <Block>Bovine Beta: emmm</Block>
+            <Block>Bovine Beta: Thank you!</Block>
+            <Block>::1: that's particularly unfortunate, isn't it</Block>
+            <Block>Fayti1703: Assuming random hashcodes, 1/65536 chance.</Block>
+            <Block>Bovine Beta: this is the second of my "two encrypted files"</Block>
+            <Block>Bovine Beta: [Images]</Block>
+            <Block>Bovine Beta: :joy: I only writed 4 encrypted files</Block>
+            <Block>MXYLR: Hacknet Hash collision ^TM</Block>
         </Data>
         <Images>
             <Image></Image>
