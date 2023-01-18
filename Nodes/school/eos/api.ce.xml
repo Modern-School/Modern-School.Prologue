@@ -7,5 +7,5 @@
   <firewall level="4" additionalTime="0.1" />
   <proxy time="15"/>
   <trace time="20" />
-  <LogoCustomConnectDisplayDaemon logo="Logo/school.png" title="Logo/title.png" overdrawLogo="true" buttonAlignment="right"/>
+  <LogoCustomConnectDisplayDaemon logo="Logo/school.png" title="Logo/school.png" overdrawLogo="true" buttonAlignment="right"/>
 </Computer>

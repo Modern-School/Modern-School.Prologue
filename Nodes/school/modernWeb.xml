@@ -7,7 +7,7 @@
   <firewall level="4" additionalTime="0.1" />
   <proxy time="15"/>
   <trace time="20" />
-  <LogoCustomConnectDisplayDaemon logo="Logo/school.png" title="Logo/title.png" overdrawLogo="true" buttonAlignment="right"/>
+  <LogoCustomConnectDisplayDaemon logo="Logo/school.png" title="Logo/school.png" overdrawLogo="true" buttonAlignment="right"/>
   <LogoDaemon Name="摩登中学官网" ShowsTitle="true" TextColor="255, 255, 255, 200" LogoImagePath="Logo/school.png">摩登中学, 创造奇迹</LogoDaemon>
 
 

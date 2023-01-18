@@ -28,6 +28,7 @@
         <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="48">Student_Power公共IRC服务器</AddIRCMessage>
         <AddIRCMessage Author="Lily" TargetComp="sPIRC" Delay="50">哦好的, 谢谢!</AddIRCMessage>
         <AddIRCMessage Author="Base" TargetComp="sPIRC" Delay="52">不客气</AddIRCMessage>
+        <AddIRCMessage Author="Yan" TargetComp="sPIRC" Delay="11">你艾特错人了! @Cucumber</AddIRCMessage>
         <AddConditionalActions Filepath="Actions/sPMission/Action1.xml" DelayHost="delayNode" Delay="15"/>
         <AddAsset FileName="SQLMemoryCorruptionInjector.exe" FileContents="#SQL_CRACK#" TargetComp="sPAssets" TargetFolderpath="home/tools" />
         <AddAsset FileName="SMTPServerOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="sPAssets" TargetFolderpath="home/tools" />
