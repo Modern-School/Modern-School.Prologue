@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mission id="startingMission" activeCheck="true">
     <goals>
-        <goal type="delay" time="0.1" />
+        <goal type="delay" time="10" />
     </goals>
     <nextMission>Missions/cucMissions/Mission.xml</nextMission>
     <email>
