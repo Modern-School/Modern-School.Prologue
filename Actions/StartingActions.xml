@@ -40,12 +40,13 @@ link#%#Tom 的路由器#%#59.142.88.87@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;
 account#%#Tom 的路由器#%#59.142.88.87#%#admin#%#asdfghjkl</AppendToFile>
         <DeleteFile TargetComp="ispComp" FilePath="home" FileName="ISP_About_Message.txt" DelayHost="delayHost" Delay="0"/>
         <AddAsset FileName="ISP_About_Message.txt" FileContents="该服务器是一个ISP的路由管理系统" TargetComp="ispComp" TargetFolderpath="home"/>
-        <AppendToFile DelayHost="delayNode" Delay="0.1" TargetComp="ispComp" TargetFolderpath="home" TargetFilename="ISP_About_Message.txt">为 摩登中学校内互联网络环境 提供网络业务管理</AppendToFile>
-        <AppendToFile DelayHost="delayNode" Delay="0.1" TargetComp="ispComp" TargetFolderpath="home" TargetFilename="ISP_About_Message.txt">        </AppendToFile>
-        <AppendToFile DelayHost="delayNode" Delay="0.1" TargetComp="ispComp" TargetFolderpath="home" TargetFilename="ISP_About_Message.txt">如需使用该管理系统, </AppendToFile>
-        <AppendToFile DelayHost="delayNode" Delay="0.1" TargetComp="ispComp" TargetFolderpath="home" TargetFilename="ISP_About_Message.txt">请联系有关部门获取这台设备的管理员账户</AppendToFile>
-        <AppendToFile DelayHost="delayNode" Delay="0.1" TargetComp="ispComp" TargetFolderpath="home" TargetFilename="ISP_About_Message.txt">        </AppendToFile>
-        <AppendToFile DelayHost="delayNode" Delay="0.1" TargetComp="ispComp" TargetFolderpath="home" TargetFilename="ISP_About_Message.txt">如果遇到技术问题, </AppendToFile>
-        <AppendToFile DelayHost="delayNode" Delay="0.1" TargetComp="ispComp" TargetFolderpath="home" TargetFilename="ISP_About_Message.txt">请与相关技术人员取得联系</AppendToFile>
+        <AppendToFile DelayHost="delayNode" Delay="0.1" TargetComp="ispComp" TargetFolderpath="home" TargetFilename="ISP_About_Message.txt">为 摩登中学校内互联网络环境 提供网络业务管理
+        
+如需使用该管理系统, 
+请联系有关部门获取这台设备的管理员账户.
+        
+如果遇到技术问题, 
+请与相关技术人员取得联系.</AppendToFile>
+        <DeleteFile TargetComp="cucWeb" FilePath="home/file" FileName="awa" DelayHost="delayHost" Delay="0"/>
     </Instantly>
 </ConditionalActions> 

@@ -529,9 +529,6 @@ $ clash -f /etc/clash/config.yaml
             <Block>Bovine Beta: :joy: I only writed 4 encrypted files</Block>
             <Block>MXYLR: Hacknet Hash collision ^TM</Block>
         </Data>
-        <Images>
-            <Image></Image>
-        </Images>
     </Memory>
 
 <dlink target="sciAssets"/>
