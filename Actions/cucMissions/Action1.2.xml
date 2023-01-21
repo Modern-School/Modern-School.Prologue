@@ -2,5 +2,12 @@
     <Instantly>
         <RunFunction FunctionName="removeFlags:withoutCuc"/>
         <RunFunction FunctionName="addFlags:withCuc"/>
+        <LaunchHackScript
+            Filepath="HackerScripts/sPOpen.txt"
+            DelayHost="delayHost"
+            SourceComp="sPTest"
+            TargetComp="sPTest"
+            RequireLogsOnSource="false"
+            RequireSourceIntact="false" />
     </Instantly>
 </ConditionalActions>

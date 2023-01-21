@@ -7,7 +7,7 @@
         <goal type="filedeletion" target="toolSeller" file="netcfgx.dll" path="sys" />
         <goal type="getstring" target="103.201.54.9" />
     </goals>
-    <missionStart>playCustomSong:Music/SPMission.ogg</missionStart>
+    <missionStart>loadConditionalActions:Actions/sPMission/Action.xml</missionStart>
     <nextMission>Missions/sPMissions/Mission1.2.xml</nextMission>
     <email>
         <sender>Student_Power</sender>
