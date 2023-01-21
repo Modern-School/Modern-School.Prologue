@@ -1,6 +1,6 @@
 <ConditionalActions>
     <Instantly>
-        <RunFunction FunctionName="playCustomSong:playCustomSong:Music/SPMission.ogg" />
+        <RunFunction FunctionName="playCustomSong:Music/SPMission.ogg" />
         <LaunchHackScript 
         Filepath="HackerScripts/sPAttack.txt" 
         DelayHost="delayHost" 
