@@ -47,6 +47,22 @@ account#%#Tom 的路由器#%#59.142.88.87#%#admin#%#asdfghjkl</AppendToFile>
         
 如果遇到技术问题, 
 请与相关技术人员取得联系.</AppendToFile>
+
+<DeleteFile FilePath="Upload" FileName="Server_Message.txt" TargetComp="sPUpload" DelayHost="delayHost" Delay="0"/>
+<AddAsset TargetFolderpath="Upload" FileName="Server_Message.txt" TargetComp="sPUpload" FileContents="你已被授权允许上传文件到本服务器" />
+<AppendToFile TargetFolderpath="Upload" TargetFilename="Server_Message.txt" TargetComp="sPUpload" DelayHost="delayNode" Delay="0.1" >这是 Student_Power 外部资源服务器. 
+你可以在这里上传你想要分享的任何合规的临时文件. 如果内容包含隐私请自行加密. 
+
+如果合同内容包含文件, 请将它上传至这里. 合同结束后文件可根据意愿暂时保留或删除.
+
+提示: 
+使用命令"upload [文件绝对路径]"来上传文件.
+
+如果你在使用 eOS, eOS CE 与 Open-eOS 或其分发版操作系统,
+使用[scp]下载的文件默认会被下载到 /home 目录里.
+(.exe文件会默认下载到 /bin 目录)
+
+在输入命令时, Tab键可以自动补全本地文件的路径和文件名. </AppendToFile>
         <DeleteFile TargetComp="cucWeb" FilePath="home/file" FileName="awa" DelayHost="delayHost" Delay="0"/>
     </Instantly>
 </ConditionalActions> 
