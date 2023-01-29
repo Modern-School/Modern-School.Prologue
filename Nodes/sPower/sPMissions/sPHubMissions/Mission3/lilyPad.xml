@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="lilyPad" name="Lily 的ePad" security="0" allowsDefaultBootModule="false" type="empty" icon="tablet">
+<Computer id="lilyPad" name="Lily 的ePad" security="0" allowsDefaultBootModule="false" type="5" icon="tablet">
 
     <adminPass pass="alpine" />
-    <ports>32, 21</ports>
-    <portRemap>32=22, 21=1234</portRemap>
+    <ports>32,22,21,80</ports>
+    <portRemap>21=1234, 80=8080</portRemap>
     <portsForCrack val="3" />
 
     <trace time="-1" />
@@ -13,10 +13,13 @@ Service Port : 1234
 </file>
     <file path="eos/apps/SignalScrambleService" name="app.pkg">#BINARY#</file>
     <file path="eos/apps/SignalScrambleService" name="SignalScrambleService.sav">----- [SignalScrambleService] Save Data -----
+Scramble Enable : true
  
-Service Port : 22
+Target Port : 3695
  
-Scramble Port : 22, 3695
+beta.enableDebug : false
+ 
+beta.debugPort : 8080
 </file>
     <file path="eos/notes" name="待装软件.txt">待装软件
 
@@ -30,10 +33,7 @@ FTPServer是一个轻便的文件传输软件. 众所周知, 暂时只有eOS拥�
 营销号话真多 
  
  
-SignalScrambleService: 安防程序, 测试版, 据说能干扰eOS不需要的端口. 
+SignalScrambleService: 安防程序, 还是个测试版, 据说能屏蔽eOS Connection Manager. 
 </file>
-    <file path="eos/mail" name="place-holder">place-holder</file>
-    <file path="eos/system" name="core.sys">#BINARY#</file>
-    <file path="eos/system" name="runtime.bin">#BINARY#</file>
     <dlink target="lilyLaptop" />
 </Computer>

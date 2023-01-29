@@ -33,8 +33,8 @@
         <AddAsset FileName="SQLMemoryCorruptionInjector.exe" FileContents="#SQL_CRACK#" TargetComp="sPAssets" TargetFolderpath="home/tools" />
         <AddAsset FileName="SMTPServerOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="sPAssets" TargetFolderpath="home/tools" />
         <LaunchHackScript 
-        Filepath="HackerScripts/clean.txt" 
-        DelayHost="cyanComp"  
+        Filepath="HackerScripts/attackLily.txt" 
+        DelayHost="delayHost"  
         SourceComp="cyanComp" 
         TargetComp="lilyPad" 
         RequireLogsOnSource="false" 

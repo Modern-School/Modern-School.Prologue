@@ -1,0 +1,6 @@
+config lilyPad cyanComp 0 $#%#$
+connect $#%#$
+openPort 22 $#%#$
+openPort 1234 $#%#$
+openPort 8080 $#%#$
+disconnect $#%#$
