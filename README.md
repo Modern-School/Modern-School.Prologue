@@ -3,6 +3,9 @@ A Hacknet Extension made by [FBIK.](https://github.com/bovinebeta).
 
 Modern School is not finished, the Prologue version is expected to play for about 1 hour. 
 
+[![Official Website](https://img.shields.io/badge/Official_Website-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://modern-school.fbik.top) [![Steam Workshop](https://img.shields.io/badge/Steam_Workshop-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=2918857028)
+
+
 # The Plot
 Modern School is a provincial key public secondary school, whitch with a junior high school and a senior high school. With the development of Internet technology, in order to make students adapt to the new era, Modern School carried out "Information Technology into Campus" teaching and improvement of school environment.
 
