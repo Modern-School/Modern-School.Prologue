@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mission id="cucMission4_4" activeCheck="false">
     <goals>
-        <goal type="getstring" target="ZQG"/>
+        <goal type="getstring" target="6623631518108497"/>
     </goals>
     <missionStart>playCustomSong:Music/cucTheme.ogg</missionStart>
     <nextMission>Missions/cucMissions/Mission4.5.xml</nextMission>
