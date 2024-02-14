@@ -64,8 +64,27 @@ Most of the teaching assistance systems in the school are gradually using the Mo
 
 # Special Thanks
 Names not listed in order
+
+## Advising
 - Err0r233
 - Darkside_0616
 - ZQG
 - Bit
+
+## Test
 - Wh1teCatcats
+- ChengZhi
+
+## Walkthrough
+- [墨染之樱_优雅绽放](https://space.bilibili.com/129280061)
+- [一只萌萌哒的矿工](https://space.bilibili.com/397291489)
+
+# Walkthrough
+
+Not listed in order
+
+(Version: Pre-release2) [[Hacknet Extension] Modern School : Prologue Pre-release2 攻略视频](https://www.bilibili.com/video/BV1W84y157fw) by [FBIK.](https://github.com/FBIKdot)
+
+(Unofficial, Version: Lastest) [【hacknet】创意工坊模组：Modern School : Prologue （摩登中学学生会线路）](https://www.bilibili.com/video/BV1PM411g7V5) by [墨染之樱_优雅绽放](https://space.bilibili.com/129280061)
+
+(Unofficial, Version: Lastest) [【Hacknet创意工坊】《Modern School ：Prologue》 摩登中学：前传拓展攻略](https://www.bilibili.com/video/BV1Uj421X7rK?vd_source=df2b12f36c675f5f350eca173c486607) by [一只萌萌哒的矿工](https://space.bilibili.com/397291489)
